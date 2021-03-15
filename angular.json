@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gymOn"
+    }
+  },
+  "defaultProject": "gymOn",
+  "cli": {
+    "analytics": false
+  }
 }
