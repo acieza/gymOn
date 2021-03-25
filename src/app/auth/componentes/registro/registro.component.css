@@ -1,0 +1,11 @@
+input{
+    padding-left: 0.5em;
+}
+
+button:disabled{
+    background-color: rgb(182, 181, 181);
+}
+.rojo{
+   color: red;
+   margin-top: 0.2em;
+}

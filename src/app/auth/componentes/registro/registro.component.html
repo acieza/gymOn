@@ -1,0 +1,66 @@
+
+<!-- <body class="h-screen overflow-hidden flex items-center justify-center" style="background: #edf2f7;"> -->
+    <div >
+    <div class="relative min-h-screen flex flex-col sm:justify-center items-center bg-gray-100 ">
+        <div class="relative sm:max-w-sm w-full">
+            <div class="card bg-blue-400 shadow-lg  w-full h-full rounded-3xl absolute  transform -rotate-6"></div>
+            <div class="card bg-red-400 shadow-lg  w-full h-full rounded-3xl absolute  transform rotate-6"></div>
+            <div class="relative w-full rounded-3xl  px-6 py-4 bg-gray-100 shadow-md">
+                <label for="" class="block text-sm text-gray-700 text-center font-semibold">
+                    Register
+                </label>
+                <form action="#" class="mt-10" [formGroup]="form" (ngSubmit)="crearUsuario($event)">
+                                    
+                    <div>
+                        <input type="text" formControlName="nombre" placeholder="Nombre" class="placeholder-grey-700 text-black-900 mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0">
+                    </div>
+                    <div class="rojo" *ngIf="form.get('nombre').hasError('required') && form.get('nombre').dirty">*Este campo es OBLIGATORIO</div>              
+
+                    <div class="mt-7">                
+                        <input type="email" formControlName="email" placeholder="Email" class="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0">                           
+                    </div>
+                    <div class="rojo" *ngIf="form.get('email').hasError('required') && form.get('email').dirty">*Este campo es OBLIGATORIO</div>
+
+                    <div class="mt-7">                
+                        <input type="password" formControlName="password" placeholder="Contraseña" class="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0">                           
+                    </div>
+                    <div class="rojo" *ngIf="form.get('password').hasError('required') && form.get('password').dirty">*Este campo es OBLIGATORIO</div>
+
+                    <div class="mt-7">                
+                        <input type="password" formControlName="vpassword" placeholder="Confirmar contraseña" class="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0">                           
+                    </div>
+                    <div class="rojo" *ngIf="compararPassword()">*Las Contraseñas no Coinciden</div>
+
+                    <div class="text-center text-sm text-grey-dark mt-4">
+                        <input type="checkbox" class="Term"  formControlName="term">
+                        Acepto los  
+                        <a class="no-underline border-b border-grey-dark text-grey-dark" href="#">
+                           Terminos de Servicio
+                        </a> y 
+                        <a class="no-underline border-b border-grey-dark text-grey-dark" href="#">
+                            Políticas de Privacidad
+                        </a>
+                    </div>
+                    
+        
+                    <div class="mt-7">
+                        <button [disabled]="form.invalid" class="bg-blue-500 w-full py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
+                            Registrar
+                        </button>
+                    </div>
+
+                    <div class="mt-7">
+                        <div class="flex justify-center items-center">
+                            <label class="w-full text-sm text-gray-600">¿Ya tienes una cuenta?</label>
+                            <a routerLink="/auth" class="w-full text-blue-500 transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
+                                Login
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- </body> -->
+
