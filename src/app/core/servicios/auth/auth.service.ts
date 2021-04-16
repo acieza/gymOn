@@ -64,6 +64,38 @@ export class AuthService {
     return this.http.post<Registro>('http://localhost:3000/usuarios', newUser);
   }
 
+  modificarUser(putUser: Usuario){
+    const token = localStorage.getItem('token') || ''
+    return this.http.put<Usuario>(`http://localhost:3000/usuarios/${this.usuario._id}`, putUser, {
+      headers: {
+        'mytoken':JSON.parse(token)
+      }});
+  }
+  getOnlyUsuarios(){
+    const token = localStorage.getItem('token') || ''
+    return this.http.get<Usuario[]>('http://localhost:3000/usuarios/user', {
+      headers: {
+        'mytoken':JSON.parse(token)
+      }
+    });
+  }
+  deleteUser(id:string){
+    const token = localStorage.getItem('token') || ''
+    return this.http.delete<Usuario>(`http://localhost:3000/usuarios/${id}`,{
+      headers: {
+        'mytoken':JSON.parse(token)
+      }
+    })
+  }
+  getOnlyProfesor(){
+    const token = localStorage.getItem('token') || ''
+    return this.http.get<Usuario[]>('http://localhost:3000/usuarios/profesor', {
+      headers: {
+        'mytoken':JSON.parse(token)
+      }
+    });
+  }
+
   get role(): 'admin' | 'user' | 'profesor' {
     return this.usuario.role;
   }

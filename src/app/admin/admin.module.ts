@@ -3,13 +3,20 @@ import { CommonModule } from '@angular/common';
 
 import { AdminRoutingModule } from './admin-routing.module';
 import { AdminComponent } from './admin.component';
-
+import {MatMenuModule} from '@angular/material/menu';
+import { PerfilComponent } from './componentes/perfil/perfil.component';
+import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
+import { ProfesoresComponent } from './componentes/profesores/profesores.component';
+import { ClasesComponent } from './componentes/clases/clases.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AdminComponent],
+  declarations: [AdminComponent, PerfilComponent,ClasesComponent,UsuariosComponent, ProfesoresComponent],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class AdminModule { }

@@ -1,1 +1,30 @@
-<p>admin works!</p>
+<section class="primera">
+<nav>
+    
+    <div class="izq">
+
+    </div>
+    <div class="der">
+        <div class="centrar">
+            <img routerLink='perfil' [src]="usuario.devuelveImagen" alt="">
+            <p class="nombre">{{usuario.nombre}}</p>
+        </div>
+        
+    </div>
+</nav>
+
+
+<div class="central">
+    <div class="menu">
+        <div class="btn" routerLink="usuarios">Usuarios</div>
+        <div class="btn" routerLink="profesores">Profesores</div>
+        <div class="btn" routerLink="clases">Clases</div>
+        <div class="logout" (click)="cerrarSesion()">Cerrar sesión</div>
+        
+    </div>
+    <div class="mostrar">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+</section>

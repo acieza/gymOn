@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LocalComponent } from './pages/local/local.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

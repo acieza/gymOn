@@ -106,6 +106,7 @@ nav{
 .text{
     font-size: 54px;
     padding-left: 2em;
+    
     font-weight: bold;
     color: grey;
     
@@ -113,10 +114,13 @@ nav{
 .blanco{
     color: white;
     border-bottom: 3px solid white;
+    
 }
 .grey{
     color: grey;
-    border-bottom: 3px solid white;
+    
+    margin-top: 1em;
+    padding-bottom: 0.5em;
 }
 .info{
     width: 80%;
@@ -154,9 +158,10 @@ nav{
     font-size: 40px;
     color: grey;
     font-weight: bold;
+    
 }
-.titu span{
-    border-bottom: 3px solid #292A3A;
+.sin{
+    margin-top: 0.5em;
 }
 .medi{
     width: 80%;
@@ -178,4 +183,7 @@ nav{
     color: grey;
     font-weight: bold;
     font-size: 14px;
+}
+span{
+    margin-top: 3em;
 }
