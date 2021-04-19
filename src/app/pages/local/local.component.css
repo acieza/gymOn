@@ -1,10 +1,12 @@
+
+
+
 .cuadro{
     height: 75vh;
     width: 100%;
-    /* background-color: teal; */
     background: url(/assets/img/suelo.jpg)no-repeat;
     background-size: cover;
-
+    /* background-color: transparent; */
    
 }
 .cuadro img{
@@ -45,11 +47,13 @@ nav{
     border-bottom: 1px solid blue;
     margin-right: 0.5em;
     cursor: pointer;
+    padding: 0.2em;
 }
 .btn2{
     background: rgb(91, 91, 235);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
+    padding: 0.4em;
     cursor: pointer;
 }
 /***************** SECTION Y NAV *****************/
@@ -67,7 +71,7 @@ nav{
     width: 80%;
     color: black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +87,7 @@ nav{
 /******************* SECTION SEGUNDA ******************/
 /******************* SECTION TERCERA ******************/
 .tercera{
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     background-color: #292A3A;
     display: flex;
@@ -91,8 +95,8 @@ nav{
     align-items: center;
 }
 .porta{
-    height: 65%;
-    width: 45%;
+    height: 450px;
+    width: 600px;
     
 }
 .porta img{
@@ -100,21 +104,22 @@ nav{
     width: 100%;
 }
 .nosotros{
-    height: 65%;
-    width: 45%;  
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
 }
 .text{
-    font-size: 54px;
-    padding-left: 2em;
-    
+    font-size: 54px;  
     font-weight: bold;
-    color: grey;
-    
+    color: grey;    
 }
 .blanco{
     color: white;
     border-bottom: 3px solid white;
-    
+   
 }
 .grey{
     color: grey;
@@ -127,8 +132,9 @@ nav{
     color: white;
     font-size: 24px;
     font-weight: bold;
-    margin-left: 4.5em;
+    margin-left: 2.7em;
     margin-top: 1em;
+    line-height : 30px;
 }
 .info p{
     margin-top: 1em;
@@ -137,7 +143,7 @@ nav{
 /******************* SECTION CUARTA  ******************/
 .cuarta{
     height: 90vh;
-    width: 100;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,11 +161,10 @@ nav{
     height: 55%;
 }
 .titu{
-    font-size: 40px;
+    font-size: 30px;
     color: grey;
     font-weight: bold;
-    
-}
+    }
 .sin{
     margin-top: 0.5em;
 }
@@ -187,3 +192,277 @@ nav{
 span{
     margin-top: 3em;
 }
+ @media screen and (max-width: 1280px){
+    
+    .tercera{
+       
+        height: 80vh;
+    }
+    .porta{
+        height: 300px;
+        width: 400px;
+        
+    }
+    .porta img{
+        height: 100%;
+        width: 100%;
+    }
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;  
+        height: 300px;
+        width: 500px;  
+    }
+    .der{
+        font-size: 24px;
+        padding: 1em;
+    }
+    .text{
+        font-size: 24px;
+        margin-left: 2em;
+    }
+    .info{  
+        font-size: 18px;
+        line-height : 30px;
+        margin-top: 0em;
+    }
+    .fot{
+        width: 350px;
+        height: 300px;
+    }
+    .exp{ 
+        width: 500px;
+        height: 300px;
+    }
+    .medi{
+        font-size: 20px;
+        line-height : 30px;
+    }
+    .titu{
+        font-size: 24px;
+        color: grey;
+        font-weight: bold;
+        }
+} 
+@media screen and (max-width: 980px){
+    .tercera{
+       flex-direction: column;
+        height: 90vh;
+    }
+    .btn{
+       display: none;
+    }
+    .btn2{
+        display: none;
+    }
+    .porta{
+        height: 300px;
+        width: 450px;
+        
+    }
+    .porta img{
+        height: 100%;
+        width: 100%;
+    }
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;  
+        height: 300px;
+        width: 550px; 
+        margin-top: 2em; 
+    }
+    .der{
+        font-size: 32px;
+        padding: 1em;
+    }
+    .text{
+        font-size: 24px;
+        margin-left: 2em;
+    }
+    .info{  
+        font-size: 18px;
+        line-height : 30px;
+    }
+    .cuarta{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fot{
+        width: 450px;
+        height: 300px;
+        margin-top: 5em;
+    }
+    .home{
+        width:450px;
+    }
+    .exp{ 
+        width: 450px;
+        height: 200px;
+    }
+    .medi{
+        width: 100%;
+        font-size: 24px;
+        line-height : 30px;
+    }
+    
+} 
+@media screen and (max-width: 980px){
+    .izq img{
+        width: 140px;
+        height: 30px;
+    }
+}
+
+/* @media screen and (min-width: 1921px){
+    .porta{
+        height: 700px;
+        width: 30%;
+        
+    }
+    .porta img{
+        height: 100%;
+        width: 100%;
+    }
+    .der{
+        font-size: 32px;
+        padding: 1em;
+    }
+    .nosotros{
+        height: 65%;
+        width: 35%;
+        
+    }
+    .text{
+        font-size: 54px;
+ 
+    }
+    .info{  
+        font-size: 26px;
+        line-height : 25px;
+    }
+    .fot{
+        width: 35%;
+        height: 50%;
+    }
+    .exp{ 
+        width: 30%;
+        height: 55%;
+    }
+    .titu{
+        font-size: 36px;
+        color: grey;
+        font-weight: bold;
+        }
+    
+    .medi{
+        width: 80%;
+        font-size: 30px;
+        color: black;
+        margin-top: 2em;
+        line-height : 35px;
+    }
+    
+} */
+/* @media screen and (max-width: 1280px){
+    .der{
+        font-size: 20px;
+    }
+    .izq img{
+        width: 180px;
+        height: 40px;
+    }
+    .tercera{
+        flex-direction: column;
+        height: 90vh;
+       
+      
+    }
+    .porta{
+        height: 40%;
+        width: 35%;
+        margin-bottom: 2em;
+     
+    }
+    .porta img{
+        height: 100%;
+        width: 100%;
+    }
+    .nosotros{
+        
+        height: 40%;
+        width: 45%;  
+    }
+    .text{
+        font-size: 30px;
+        
+        
+        font-weight: bold;
+        color: grey;
+        
+    }
+    .info{
+        width: 80%;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 2.5em;
+        line-height : 25px;
+    }
+    /****************************/
+    /* .cuarta{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fot img{
+        height: 100%;
+        width: 100%;
+    }
+    .fot{
+        width: 40%;
+        height: 40%;
+    }
+    .exp{ 
+        width: 40%;
+        height: 35%;
+    }
+    .titu{
+        font-size: 30px;
+        color: grey;
+        font-weight: bold;
+        }
+    .sin{
+        margin-top: 0.5em;
+    }
+    .medi{
+        width: 80%;
+        font-size: 24px;
+        color: black;
+        margin-top: 2em;
+        line-height : 25px;
+    }
+    .home{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+    }
+    .socio{
+        margin-top: 1em;
+        color: grey;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    span{
+        margin-top: 3em;
+    }
+}  */
