@@ -1,0 +1,51 @@
+<section>
+    <div class="centro">
+        <div class="centrar">
+            <div class="izq">
+                <h2>Datos de Usuario</h2>
+            </div>
+            <div class="der">
+                <img class="imagen" [src]="devuelveImagen">
+            </div>       
+        </div>
+        <form [formGroup]="form" (ngSubmit)="modificarUser($event)">
+      <div>      
+            <!-- <div>Avatar</div> -->
+            
+            <div class="flex">
+            <input disabled  type="file" class="cajas" >
+            <select formControlName="role" name="select" id="">
+                <option value="user">user</option>
+                <option value="profesor">profesor</option>
+                <option value="admin">admin</option>
+            </select>
+        </div>
+       
+    </div>
+   
+    
+    <div>
+        <div class="tama">Nombre</div>
+        <input formControlName="nombre" class="in" type="text" name="" id="" class="cajas">
+    </div>
+    <div>
+        <div class="tama">email</div>
+        <input formControlName="email" type="email"  class="in"name="" id="" class="cajas">
+    </div>
+    <div  class="cursos">Clases</div>
+   
+    <div class="cajon">
+        <ul formArrayName="clases" *ngFor="let clases of leerClase.controls; let i = index">
+            <li class="fl" [formGroupName]="i">
+                <input class="cajas2" formControlName="nombre"><span class="btn2" (click)="eliminarClases(i)">Borrar</span>
+            </li>
+        </ul>
+</div> 
+
+
+    <div class="botones">
+        <button type="submit">Guardar Cambios</button>
+    </div>
+        </form>
+</div>
+</section>

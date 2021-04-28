@@ -1,0 +1,178 @@
+[{
+  "_id": {
+    "$oid": "605318a3124586048071dd9a"
+  },
+  "role": "admin",
+  "clases": [],
+  "nombre": "asaci0333",
+  "email": "asanjuancieza@gmail.com",
+  "password": "$2a$10$2SQZxJLlA.RwBWYN75Ol0e7zYQCYHps8mA8OHNBOAammLyY8Dq98u",
+  "__v": 0,
+  "img": "b9da9c77671e394231eef93fa6fc6432.jpeg"
+},{
+  "_id": {
+    "$oid": "605320fec9771905a8535d1d"
+  },
+  "role": "profesor",
+  "clases": [],
+  "nombre": "dani",
+  "email": "dania@gmail.com",
+  "password": "$2a$10$KpWwekFccgQYNaIw/HBJRuQlWjgwur/Euuuk25/MEjeQdoe0SO64m",
+  "__v": 0,
+  "img": "02cefdb3b9dfa947392ef505dca67dcf.jpeg"
+},{
+  "_id": {
+    "$oid": "605ce081b9442f33f48a2e7b"
+  },
+  "role": "admin",
+  "clases": [],
+  "nombre": "fede",
+  "email": "fede@gmail.com",
+  "password": "$2a$10$uLF8FcLA1yU0srG6BPqbleY414RK5.t1w3zbzL5ySr/lfwMf2IDPG",
+  "__v": 0,
+  "img": "5f888c7924c52040f2c01b544ea0d9ec.jpeg"
+},{
+  "_id": {
+    "$oid": "605ce311b9442f33f48a2e7d"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "alberto",
+  "email": "alberto@gmail.com",
+  "password": "$2a$10$nqsI0IqRPdZ3Yx5lR8Ez1OYzqf/xQCyYs4kkKNouGS3ndP9dQKnfq",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608983f97d176239a05af4b8"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Fernando",
+  "password": "$2a$10$D1W2c2y6Vv4XAtdl853h0ObcqpJvw88xBJzzUwanecZp3KzHADtMS",
+  "email": "fernando@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608984097d176239a05af4b9"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Roberto",
+  "password": "$2a$10$tA0.o3Sd9jL0jWGEC21hSOy9ICaRxdXGkoRXiLchp.v7smKHHIps2",
+  "email": "Roberto@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608984137d176239a05af4ba"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Alex",
+  "password": "$2a$10$QBYiUT2bFFaRD4wEpTILROjYIBZZmQmLpU3/m2.233buhzDVKuZIe",
+  "email": "alex@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6089841d7d176239a05af4bb"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Sandra",
+  "password": "$2a$10$cyngbpVX/ociLyHyRGMQRu7nAvW915ywIV/9VT0CTQSiGWMDbnOsG",
+  "email": "sandra@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608984277d176239a05af4bc"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Ines",
+  "password": "$2a$10$YpWF.GP5JsswobTQH.SYjeoWNLwpUsnx08.vpZnB.BVX9L174HFXC",
+  "email": "ines@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608984307d176239a05af4bd"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Paula",
+  "password": "$2a$10$fk7l6GfX6UaRtHKv59cg6u/TbVjgZEoMPuzDA8V9J6QZHq7sQUCxm",
+  "email": "paula@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608984bb7d176239a05af4be"
+  },
+  "role": "profesor",
+  "clases": [],
+  "nombre": "Christian",
+  "password": "$2a$10$WWMjh9Uu9xKFvkbcrZxxJupOKHiMbZKKeqzSPmQQA09W5F3kRG7bW",
+  "email": "christian@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608984c97d176239a05af4bf"
+  },
+  "role": "profesor",
+  "clases": [],
+  "nombre": "Eduardo",
+  "password": "$2a$10$1ebXlTGygU2BHSjpnPoKLOu4DskmBuG5.xX4zQZR4Bz6scqRfNdC.",
+  "email": "eduardo@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608984df7d176239a05af4c0"
+  },
+  "role": "profesor",
+  "clases": [],
+  "nombre": "David",
+  "password": "$2a$10$6l9BhYcZZkQRkdNqCZclIuCb..hS9Ilg271nA5qeG2/jl1GW3Fqp2",
+  "email": "David@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608984e97d176239a05af4c1"
+  },
+  "role": "profesor",
+  "clases": [],
+  "nombre": "Rafael",
+  "password": "$2a$10$XLnzqNhjnZ7av4JtoQU3ZeA6W9oGiwy4f/HLFQTvqME5eeVqGteMe",
+  "email": "rafael@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60899eb97d176239a05af4c2"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Elias",
+  "password": "$2a$10$OB9555Z9Zrwm05GwzFFhP.3NfTNOvdwPBpxQwfd46PsJSw0e7y8/S",
+  "email": "elias@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6089b545d98bc61fb4840420"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "alber",
+  "email": "albert@gmail.com",
+  "password": "$2a$10$8n4vU1.aaCQueKu36IvgnOjTVica/jQJt6vyoSNPTxzRIPromRff2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6089b5b7d98bc61fb4840421"
+  },
+  "role": "user",
+  "clases": [
+    {
+      "$oid": "60643a3f73c6182230d341a9"
+    }
+  ],
+  "nombre": "albert",
+  "email": "alber@gmail.com",
+  "password": "$2a$10$m9MEWKG/haENG3sEYYYUcufppg1t0rMjKqbo.D6X6NVSlcq0wTcnS",
+  "__v": 0
+}]

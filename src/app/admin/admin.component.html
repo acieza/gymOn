@@ -16,13 +16,16 @@
 
 <div class="central">
     <div class="menu">
+        <div class="btn" routerLink="inicio">Inicio</div>
         <div class="btn" routerLink="usuarios">Usuarios</div>
         <div class="btn" routerLink="profesores">Profesores</div>
         <div class="btn" routerLink="clases">Clases</div>
         <div class="logout" (click)="cerrarSesion()">Cerrar sesión</div>
+       
         
     </div>
     <div class="mostrar">
+        
         <router-outlet></router-outlet>
     </div>
 </div>

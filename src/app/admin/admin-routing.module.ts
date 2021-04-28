@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminComponent } from './admin.component';
 import { ClasesComponent } from './componentes/clases/clases.component';
+import { EditUserComponent } from './componentes/edit-user/edit-user.component';
+import { InicioComponent } from './componentes/inicio/inicio.component';
 import { PerfilComponent } from './componentes/perfil/perfil.component';
 import { ProfesoresComponent } from './componentes/profesores/profesores.component';
 import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
@@ -27,7 +29,18 @@ const routes: Routes = [
       {
         path: 'clases',
         component: ClasesComponent
-      }
+      },
+      {
+        path: 'inicio',
+        component: InicioComponent
+      },
+      {
+        path: '',
+        component: InicioComponent
+      },
+      {
+        path: 'EditUser/:id', component: EditUserComponent
+      },
      ]
   },
   

@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "60643a3f73c6182230d341a9"
+  },
+  "nombre": "Calistenia",
+  "imagen": "asdfasdf.jpg",
+  "descripcion": "Calistenia",
+  "diaS": "Martes, Jueves",
+  "hora": "11:00",
+  "__v": 0
+}]

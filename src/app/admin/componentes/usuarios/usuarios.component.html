@@ -2,7 +2,7 @@
     <div class="container mx-auto px-4 sm:px-8 max-w-5xl">
         <div class="py-8">
             <div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
-                <button class="usu">Usuarios</button>
+                <button class="usu">Users List ({{usuarios.length}})</button>
                 <div class="text-end">
                     <div class="flex w-full max-w-sm space-x-3">
                         <div class=" relative ">
@@ -11,7 +11,7 @@
                             <button class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-blue-200" type="submit"
                             (click)="FilterByName()"
                             >
-                                Buscar
+                                Buscar 
                             </button>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                 <div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
                     <table class="min-w-full leading-normal">
                         <thead>
-                            <tr >
+                            <tr>
                                 <th scope="col"
                                     class="px-5 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal">
                                     nombre
@@ -53,9 +53,11 @@
                                                     class="mx-auto object-cover rounded-full h-10 w-10 " />
                                             </a>
                                         </div>
+                                        
                                         <div class="ml-3">
                                             <p class="text-gray-900 whitespace-no-wrap">
                                                 {{item.nombre | slice:0:15}}
+                                                
                                             </p>
                                         </div>
                                     </div>
@@ -88,7 +90,7 @@
                                             class="absolute inset-0 bg-green-200 opacity-50 rounded-full">
                                         </span>
                                         <span class="relative">
-                                            desactivado
+                                            ACTIVE
                                         </span>
                                     </span>
                                 </td>

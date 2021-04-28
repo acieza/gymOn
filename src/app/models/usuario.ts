@@ -1,3 +1,5 @@
+import { Clase } from "./clase";
+
 export class Usuario {
     constructor(
         
@@ -7,7 +9,7 @@ export class Usuario {
         public img?:string,
         public role?: 'admin' | 'user' | 'profesor',
         public _id?: string,
-        // public cursos?: Curso[]
+        public clases?: Clase[]
     ){}
   
     imprimirUsuario(){

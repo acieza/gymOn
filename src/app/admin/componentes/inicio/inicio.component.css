@@ -1,0 +1,51 @@
+.container{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.users{
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0);
+}
+.imag{
+    height: 100%;
+    width: 38%;
+}
+.imag img{
+    height: 100%;
+    width: 100%;
+}
+.entrenadores{
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0);
+    margin-left: 0.5em;
+    display: flex;
+}
+.image{
+    background-color: grey;
+    height: 100%;
+    width: 38%;
+}
+.cant{
+    width: 63%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 1em;
+    padding-left: 1em;
+    font-size: 18px;
+}
+.cantidad{
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,13 +1,10 @@
 
-
-
 .cuadro{
     height: 75vh;
     width: 100%;
     background: url(/assets/img/suelo.jpg)no-repeat;
     background-size: cover;
     /* background-color: transparent; */
-   
 }
 .cuadro img{
     height: 100%;
@@ -18,7 +15,6 @@ nav{
     height: 120px;
     background-color: transparent;
     display: flex;
-    
 }
 .izq, .der{
     width: 50%;
@@ -316,153 +312,3 @@ span{
         height: 30px;
     }
 }
-
-/* @media screen and (min-width: 1921px){
-    .porta{
-        height: 700px;
-        width: 30%;
-        
-    }
-    .porta img{
-        height: 100%;
-        width: 100%;
-    }
-    .der{
-        font-size: 32px;
-        padding: 1em;
-    }
-    .nosotros{
-        height: 65%;
-        width: 35%;
-        
-    }
-    .text{
-        font-size: 54px;
- 
-    }
-    .info{  
-        font-size: 26px;
-        line-height : 25px;
-    }
-    .fot{
-        width: 35%;
-        height: 50%;
-    }
-    .exp{ 
-        width: 30%;
-        height: 55%;
-    }
-    .titu{
-        font-size: 36px;
-        color: grey;
-        font-weight: bold;
-        }
-    
-    .medi{
-        width: 80%;
-        font-size: 30px;
-        color: black;
-        margin-top: 2em;
-        line-height : 35px;
-    }
-    
-} */
-/* @media screen and (max-width: 1280px){
-    .der{
-        font-size: 20px;
-    }
-    .izq img{
-        width: 180px;
-        height: 40px;
-    }
-    .tercera{
-        flex-direction: column;
-        height: 90vh;
-       
-      
-    }
-    .porta{
-        height: 40%;
-        width: 35%;
-        margin-bottom: 2em;
-     
-    }
-    .porta img{
-        height: 100%;
-        width: 100%;
-    }
-    .nosotros{
-        
-        height: 40%;
-        width: 45%;  
-    }
-    .text{
-        font-size: 30px;
-        
-        
-        font-weight: bold;
-        color: grey;
-        
-    }
-    .info{
-        width: 80%;
-        color: white;
-        font-size: 24px;
-        font-weight: bold;
-        margin-left: 2.5em;
-        line-height : 25px;
-    }
-    /****************************/
-    /* .cuarta{
-        height: 90vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .fot img{
-        height: 100%;
-        width: 100%;
-    }
-    .fot{
-        width: 40%;
-        height: 40%;
-    }
-    .exp{ 
-        width: 40%;
-        height: 35%;
-    }
-    .titu{
-        font-size: 30px;
-        color: grey;
-        font-weight: bold;
-        }
-    .sin{
-        margin-top: 0.5em;
-    }
-    .medi{
-        width: 80%;
-        font-size: 24px;
-        color: black;
-        margin-top: 2em;
-        line-height : 25px;
-    }
-    .home{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        
-        justify-content: center;
-    }
-    .socio{
-        margin-top: 1em;
-        color: grey;
-        font-weight: bold;
-        font-size: 14px;
-    }
-    span{
-        margin-top: 3em;
-    }
-}  */
