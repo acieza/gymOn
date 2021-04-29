@@ -11,9 +11,11 @@ import { ClasesComponent } from './componentes/clases/clases.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { EditUserComponent } from './componentes/edit-user/edit-user.component';
+import { ComentariosComponent } from './componentes/comentarios/comentarios.component';
+import { CartaComponent } from './componentes/carta/carta.component';
 
 @NgModule({
-  declarations: [AdminComponent, PerfilComponent,ClasesComponent,UsuariosComponent, ProfesoresComponent, InicioComponent, EditUserComponent],
+  declarations: [AdminComponent, PerfilComponent,ClasesComponent,UsuariosComponent, ProfesoresComponent, InicioComponent, EditUserComponent, ComentariosComponent, CartaComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,

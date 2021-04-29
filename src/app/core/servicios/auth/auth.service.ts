@@ -9,8 +9,6 @@ import { Registro } from 'src/app/models/registro';
 import { JwtHelperService } from '@auth0/angular-jwt';
 
 
-
-
 @Injectable({
   providedIn: 'root'
 })
@@ -56,8 +54,7 @@ export class AuthService {
       }),
       map(resp => true),
       catchError(error => of(false))
-      )
-    
+      ) 
   }
 
   createUser(newUser:Registro){

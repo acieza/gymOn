@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminComponent } from './admin.component';
 import { ClasesComponent } from './componentes/clases/clases.component';
+import { ComentariosComponent } from './componentes/comentarios/comentarios.component';
 import { EditUserComponent } from './componentes/edit-user/edit-user.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { PerfilComponent } from './componentes/perfil/perfil.component';
@@ -40,6 +41,10 @@ const routes: Routes = [
       },
       {
         path: 'EditUser/:id', component: EditUserComponent
+      },
+      {
+        path: 'comentarios',
+        component: ComentariosComponent
       },
      ]
   },

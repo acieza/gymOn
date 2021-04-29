@@ -49,3 +49,14 @@
         <img src="assets/img/casa.jpg" alt="">
     </div>
 </section>
+<form class="coment" [formGroup]="form" (ngSubmit)="crearComentario($event)">
+    <div class="tituloComentario"><p>Haznos saber tus dudas</p></div>
+    <div class="email">Email</div>
+    <input formControlName="email" type="text" name="" id=""  required="required" placeholder="example@example.com">
+    <div class="textComent">Comentario</div>
+    <textarea formControlName="contenido" name="" id="input" class="form-control" rows="3" required="required"></textarea>
+    <button class="env">
+        Enviar
+    </button>
+    
+</form>
