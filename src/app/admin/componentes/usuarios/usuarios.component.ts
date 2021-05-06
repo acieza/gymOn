@@ -88,7 +88,7 @@ export class UsuariosComponent implements OnInit {
 
   filteredItems: Usuario[];
   pages: number = 4;
-  pageSize: number = 4;
+  pageSize: number = 3;
   pageNumber: number = 0;
   currentIndex: number = 1;
   items: Usuario[];

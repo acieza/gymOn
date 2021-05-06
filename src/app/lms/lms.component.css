@@ -1,0 +1,106 @@
+.primera{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    height: 80px; 
+    display: flex;
+    background-color:rgb(83, 135, 233) ;
+    border-bottom: 1px solid rgb(83, 135, 233) ;
+}
+.nombre{
+    color: white;
+}
+.der{
+    width: 50%;
+    height: 100%;
+    display: flex;
+   
+    justify-content: flex-end;
+    align-items: center;
+}
+.izq{
+  
+    width: 50%;
+    height: 100%;
+}
+.central{
+    height: calc(100vh - 80px);
+    width: 100%;
+    
+    display: flex;
+}
+.menu{
+    height: 100%;
+    border-right: 1px solid rgb(236, 229, 229);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4em;
+}
+.mostrar{
+    height: 100%;
+    width: 100%;
+    
+}
+.centrar img {
+    height: 50px;
+    border-radius: 2em;
+    width: 50px;
+    background-color: rgb(71, 71, 71);
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 100%;
+}
+.btn{
+    height: 40px;
+    width: 90%;
+    background-color: rgb(235, 227, 227);
+    cursor: pointer;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout{
+    height: 40px;
+    width: 90%;
+    background-color: rgb(235, 227, 227);
+    cursor: pointer;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+li{
+    text-decoration: none;
+    margin-right: 1em;
+    cursor: pointer;
+    color: white;
+    margin-top: 1em;
+    font-size: 22px;
+}
+
+ul{
+    display: flex;
+} 
+/********************* NAV *******************/
+/********************* CENTRO ****************/
+.centro{
+    height: calc(100vh - 80px);
+    width: 100%;
+    
+}
+/********************* CENTRO ****************/

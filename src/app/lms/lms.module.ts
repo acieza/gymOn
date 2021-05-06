@@ -4,12 +4,20 @@ import { CommonModule } from '@angular/common';
 import { LmsRoutingModule } from './lms-routing.module';
 import { LmsComponent } from './lms.component';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PerfilComponent } from './componentes/perfil/perfil.component';
+
+
+
 
 @NgModule({
-  declarations: [LmsComponent],
+  declarations: [LmsComponent, PerfilComponent],
   imports: [
     CommonModule,
-    LmsRoutingModule
+    
+    LmsRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class LmsModule { }

@@ -5,6 +5,7 @@ import { AdminComponent } from './admin.component';
 import { ClasesComponent } from './componentes/clases/clases.component';
 import { ComentariosComponent } from './componentes/comentarios/comentarios.component';
 import { EditUserComponent } from './componentes/edit-user/edit-user.component';
+import { GaleriaComponent } from './componentes/galeria/galeria.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { PerfilComponent } from './componentes/perfil/perfil.component';
 import { ProfesoresComponent } from './componentes/profesores/profesores.component';
@@ -46,6 +47,10 @@ const routes: Routes = [
         path: 'comentarios',
         component: ComentariosComponent
       },
+      {
+        path: 'galeria',
+        component: GaleriaComponent
+       }
      ]
   },
   

@@ -2,3 +2,9 @@ input{
     padding-left: 0.5em;
 
 }
+
+.fondo{
+        background: url("/assets/img/fondoLogin.jpg")no-repeat;
+        background-size: cover;
+}
+

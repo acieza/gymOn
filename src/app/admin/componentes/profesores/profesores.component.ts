@@ -77,8 +77,8 @@ export class ProfesoresComponent implements OnInit {
       /****************************************/
 
   filteredItems: Usuario[];
-  pages: number = 3;
-  pageSize: number = 4;
+  pages: number = 4;
+  pageSize: number = 3;
   pageNumber: number = 0;
   currentIndex: number = 1;
   items: Usuario[];

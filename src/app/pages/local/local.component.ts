@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ComentariosService } from 'src/app/core/servicios/comentarios/comentarios.service';
+import { Galeria } from 'src/app/models/galeria';
 import Swal from 'sweetalert2';
 
 @Component({
@@ -12,6 +13,7 @@ import Swal from 'sweetalert2';
 export class LocalComponent {
 
   form: FormGroup;
+  galerias:Galeria[]=[];
 
   constructor(
     private formBuilder: FormBuilder,
@@ -27,6 +29,8 @@ export class LocalComponent {
       contenido:['', [Validators.required]]
     })
   }
+
+  
 
   crearComentario(event: Event){
     event.preventDefault();

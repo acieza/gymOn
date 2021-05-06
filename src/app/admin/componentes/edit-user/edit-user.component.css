@@ -166,6 +166,11 @@ h2{
 									   color-stop(0.72, rgb(107, 152, 207)),
 									   color-stop(0.86, rgb(115, 139, 212)));
 }
+.us{
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
 
 /* input:disabled{
     background-color:  rgb(182, 181, 181);

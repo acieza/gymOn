@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<ngb-carousel >
+    <ng-template *ngFor="let item of galerias" ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="devuelveImagen(item.imagen)" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>{{item.titulo}}</h3>
+        <p>{{item.descripcion}}</p>
+      </div>
+    </ng-template>
+    

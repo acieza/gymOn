@@ -1,0 +1,54 @@
+.caja{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width:525px;
+}
+.picsum{
+    height: 50%;
+    width: 50%;
+}
+form{
+    height: 350px;
+    width: 40%;
+    border: 1px solid rgb(200, 195, 195);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align:left;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0);
+}
+textarea{
+    border: 1px solid black;
+    width: 80%;
+}
+input{
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.linea{
+    display: flex;
+    flex-direction: column; 
+    width: 80%;
+    height: 50px
+}
+.lineaT{
+    display: flex;
+    width: 80%;
+    height: 20px;  
+}
+.subir{
+    font-size: 20px;
+}

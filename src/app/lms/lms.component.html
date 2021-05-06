@@ -1,1 +1,25 @@
-<p>lms works!</p>
+<section class="primera">
+    <nav>
+        
+        <div class="izq">
+    
+        </div>
+        <div class="der">
+        <ul>        
+            <li>calendario</li>
+            <li>consejos</li>
+            <li routerLink='perfil'>perfil</li>
+            
+            <li (click)="cerrarSesion()">cerrar sesión</li>
+        </ul>
+            <div class="centrar">
+                <img  [src]="usuario.devuelveImagen" alt="">
+                <p class="nombre">{{usuario.nombre}}</p>
+            </div>
+            
+        </div>
+    </nav>
+</section>
+<div class="centro">
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,46 @@
+<section>
+    <div class="centro">
+        <div class="centrar">
+            <div class="izq">
+                <h2>Datos de Usuario</h2>
+            </div>
+            <div class="der">
+                <img class="imagen" alt="" [src]="usuario.devuelveImagen">
+            </div>
+        </div>
+
+        <form [formGroup]="form" (ngSubmit)="modificarUsuario($event)">
+            <div>
+                <input type="file" class="cajas" (change)="uploadFile($event)">
+            </div>
+            <div>
+                <div class="tama">Nombre</div>
+                <input formControlName='nombre' class="in" type="text" name="" id="" class="cajas">
+            </div>
+             <div>
+                <div class="tama">Altura (m)</div>
+                <input formControlName='altura' class="in" type="number" name="" id="" class="cajas">
+            </div>
+            <div>
+                <div class="tama">Peso (kg)</div>
+                <input formControlName='peso' class="in" type="number" name="" id="" class="cajas">
+            </div>
+            <!-- <div>
+                <div class="tama">Password</div>
+                <input formControlName='password' class="in" type="password" name="" id="" class="cajas">
+            </div>
+            <div>
+                <div class="tama">Confirm Password</div>
+                <input formControlName='vpassword' class="in" type="password" name="" id="" class="cajas">
+            </div> -->
+            <div>
+                <div class="tama">email</div>
+                <input type="email" class="in" formControlName="email" name="" id="" class="cajas">
+            </div>
+
+            <div class="botones">
+                <button>Guardar Cambios</button>
+            </div>
+        </form>
+    </div>
+</section>

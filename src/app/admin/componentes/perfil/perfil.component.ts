@@ -26,7 +26,7 @@ export class PerfilComponent {
   ) {
     this.usuario = this.authService.usuario;
     this.buildForm();
-   
+    console.log(this.usuario)
    }
 
   
@@ -36,7 +36,9 @@ export class PerfilComponent {
         nombre: [this.usuario.nombre, Validators.required],
         email: [this.usuario.email, [Validators.email,Validators.required]],
         password: ['',[Validators.required,Validators.minLength(5)]],
-        vpassword: ['',[Validators.required,Validators.minLength(5)]]
+        vpassword: ['',[Validators.required,Validators.minLength(5)]],
+        altura: [''],
+        peso: ['']
       },{
         validators: queSeanIguales,
       })

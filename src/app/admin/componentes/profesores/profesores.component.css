@@ -2,3 +2,60 @@ th{
     background-color: #5387E9;
     color: white;
 }
+.usu{
+    font-size: 34px;
+    /* margin-right: 2em; */
+}
+.container{
+    width: 70%;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra{
+    display: flex;
+    margin: 1em;
+    justify-content: space-between;
+}
+.submit{
+    background-color: #5387E9;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 10px;
+}
+.table{
+    width: 100%;
+    border-radius: 10px;
+
+}
+tr{
+    border-radius: 10px;
+}
+.padding{
+    padding: 25px;
+}
+td{
+    font-size: 16px;
+    padding-top: 35px;
+    height: 100px;
+}
+.btn, .btn2{
+  font-size: 16px;
+}
+.linea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+.us{
+    padding: 5px 10px;
+    background-color: rgba(233, 174, 64, 0.418);
+    color: white;
+    border-radius: 25px;
+}
+
+

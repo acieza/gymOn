@@ -2,14 +2,15 @@ import { Clase } from "./clase";
 
 export class Usuario {
     constructor(
-        
         public nombre:string,
         public email: string,
         public password: string,
-        public img?:string,
-        public role?: 'admin' | 'user' | 'profesor',
-        public _id?: string,
-        public clases?: Clase[]
+        public img?:string,        
+        public role?: 'admin' | 'user' | 'profesor',    
+        public _id?: string,   
+        public clases?: Clase[],
+        public altura?: number,
+        public peso?: number,
     ){}
   
     imprimirUsuario(){
