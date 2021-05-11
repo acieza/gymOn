@@ -38,8 +38,8 @@ export class PerfilComponent {
         email: [this.usuario.email, [Validators.email,Validators.required]],
         password: ['',[Validators.required,Validators.minLength(5)]],
         vpassword: ['',[Validators.required,Validators.minLength(5)]],
-        altura: [''],
-        peso: ['']
+        altura: [this.usuario.altura],
+        peso: [this.usuario.peso]
       },{
         validators: queSeanIguales,
       })
@@ -74,6 +74,7 @@ export class PerfilComponent {
    }
 
    modificarUsuario(event: Event){
+    
      event.preventDefault();
      console.log(this.form.value);
      

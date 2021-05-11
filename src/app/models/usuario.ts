@@ -7,12 +7,14 @@ export class Usuario {
         public password: string,
         public img?:string,        
         public role?: 'admin' | 'user' | 'profesor',    
-        public _id?: string,   
-        public clases?: Clase[],
+        public _id?: string,
         public altura?: number,
         public peso?: number,
+        public clases?: Clase[],
     ){}
   
+
+
     imprimirUsuario(){
         console.log(this.nombre)
         // console.log(this.cursos)
@@ -25,4 +27,12 @@ export class Usuario {
             return `assets/img/user.png`;
         }
     }
+
+    get devuelveIMC(){
+    //    var imc:Number = (this.peso / ((this.altura/100) * (this.altura/100)));
+       
+       return this.peso / ((this.altura/100) * (this.altura/100));
+    }
+
+
 }

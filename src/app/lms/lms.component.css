@@ -90,7 +90,7 @@ li{
     cursor: pointer;
     color: white;
     margin-top: 1em;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 ul{
@@ -100,7 +100,7 @@ ul{
 /********************* CENTRO ****************/
 .centro{
     height: calc(100vh - 80px);
-    width: 100%;
-    
+    width: 100%;    
 }
+
 /********************* CENTRO ****************/

@@ -1,22 +1,24 @@
 <section class="primera">
     <nav>
-        
+
         <div class="izq">
-    
+
         </div>
         <div class="der">
-        <ul>        
-            <li>calendario</li>
-            <li>consejos</li>
-            <li routerLink='perfil'>perfil</li>
-            
-            <li (click)="cerrarSesion()">cerrar sesión</li>
-        </ul>
+            <ul>
+                <li routerLink='imc'>IMC</li>
+                <li routerLink='mis-clases'>mis clases</li>
+                <li routerLink='all-class'>all Class</li>
+                <li>consejos</li>
+                <li routerLink='perfil'>perfil</li>
+
+                <li (click)="cerrarSesion()">cerrar sesión</li>
+            </ul>
             <div class="centrar">
-                <img  [src]="usuario.devuelveImagen" alt="">
+                <img [src]="usuario.devuelveImagen" alt="">
                 <p class="nombre">{{usuario.nombre}}</p>
             </div>
-            
+
         </div>
     </nav>
 </section>
