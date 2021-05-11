@@ -17,7 +17,7 @@ export class Usuario {
 
     imprimirUsuario(){
         console.log(this.nombre)
-        // console.log(this.cursos)
+         console.log(this.clases)
     }
 
     get devuelveImagen(){

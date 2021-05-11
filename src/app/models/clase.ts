@@ -1,4 +1,4 @@
-// import { Clase } from "./clase";
+import { Ejercicio } from "./ejercicio";
 
 export interface Clase {
   imagen: string;
@@ -6,6 +6,6 @@ export interface Clase {
   descripcion: string;
   diaS: string;
   hora: string;
-  // clases: Clase[];
+  ejercicios: Ejercicio[];
   
 }

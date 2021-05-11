@@ -5,6 +5,7 @@ import { PerfilComponent } from '../lms/componentes/perfil/perfil.component';
 import { AllClassComponent } from './componentes/all-class/all-class/all-class.component';
 import { ImcComponent } from './componentes/imc/imc.component';
 import { MisClasesComponent } from './componentes/mis-clases/mis-clases/mis-clases.component';
+import { VideosComponent } from './componentes/videos/videos.component';
 
 import { LmsComponent } from './lms.component';
 
@@ -28,7 +29,10 @@ const routes: Routes = [
       path: 'all-class',
       component: AllClassComponent
     },
-    
+    {
+      path: 'videos/:id',
+      component: VideosComponent
+    },
      
    ]
   }

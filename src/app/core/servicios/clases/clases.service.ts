@@ -46,4 +46,7 @@ export class ClasesService {
       }
     })
   }
+  getEjercicioPopu(id: string){
+    return this.http.get<Clase>(`http://localhost:3000/clases/total/${id}`)
+  }
 }
