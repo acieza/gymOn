@@ -6,7 +6,7 @@
         </div>
         <div class="desc">
             <div>
-                <p>{{detalle}}</p>
+                <p class="det">{{detalle}}</p>
             </div>
         </div>
     </section>
@@ -15,9 +15,9 @@
             <ul  ><!-- -->
                 
                 <li class="nombreClase" *ngFor="let item of ejercicios" background-color="color:grey" style="color:red; margin-bottom: 3em;"> 
-                    {{item.nombre}}
-                    <div style="color:white; margin-top: 0.3em; margin-bottom:0.2em;cursor:pointer" (click)="pasaValor(item.link, item.detalle)">
-                     -- {{item.nombre}}
+                    <!-- {{item.nombre}} -->
+                    <div class="btn" (click)="pasaValor(item.link, item.detalle)">
+                     {{item.nombre}}
                     </div>
                 </li>
             </ul>

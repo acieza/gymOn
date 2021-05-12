@@ -1,5 +1,5 @@
 .todo{
-    height: 100%;
+    height: calc(100%);
     width: 100%;
     background-color: white;
     display: flex;
@@ -7,6 +7,7 @@
     align-items: center;
 }
 .fle{
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -17,11 +18,12 @@
     width: 800px;
 }
 .cla{
-    border: 1px solid black;
-    height: 732px;
-    background-color: #111827;
-    width: 250px;
-    margin: 1em;
+    height: 100%;
+    width: 450px;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    
 }
 .desc{
     margin: 1em;
@@ -30,18 +32,22 @@
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
 }
-.clase{
-    height: 150px;
-    width: 100%;
-    
+.det{
+    padding: 1em;
 }
-.nombreClase{
+.clase{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* .nombreClase{
     width: 100%;
     height: 30px;
     background-color: #374151;
     float: left;
     padding-left: 0.5em;
-}
+} */
 .te{
     height: calc(100% - 30px);
     width: 74%;
@@ -57,5 +63,16 @@ li{
 }
 ul{
     color: white;
+}
+.btn{
+    height: 40px;
+    width: 170px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #5387E9;
+    margin-top: 1em;
 }
 

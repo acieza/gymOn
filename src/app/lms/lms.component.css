@@ -14,7 +14,7 @@ nav{
     color: white;
 }
 .der{
-    width: 50%;
+    width: 70%;
     height: 100%;
     display: flex;
    
@@ -23,7 +23,7 @@ nav{
 }
 .izq{
   
-    width: 50%;
+    width: 30%;
     height: 100%;
 }
 .central{

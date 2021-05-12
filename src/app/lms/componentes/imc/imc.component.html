@@ -1,2 +1,79 @@
-<p>imc: {{usuario.devuelveIMC | number : '1.2-2'}}</p>
+<div class="container">
 
+    <div class="caja">
+        <div class="data">
+            <div class="nombre">{{usuario.nombre}}</div>
+            <div class="fle">
+                <div class="btn"><span>Altura</span></div>
+                <div class="num">{{usuario.altura}} cm</div>
+            </div>
+            <div class="fle">
+                <div class="btn"><span>Peso</span></div>
+                <div class="num">{{usuario.peso}} Kg</div>
+            </div>
+            <div class="imc">
+                <div class="btn2">
+                     <p><span class="gor" *ngIf="usuario.devuelveIMC>0&&usuario.devuelveIMC<18" style="background-color: rgba(73, 138, 236, 0.527);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
+                     <p><span class="gor" *ngIf="usuario.devuelveIMC>17&&usuario.devuelveIMC<26" style="background-color: rgba(169, 236, 92, 0.616);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
+                     <p><span class="gor" *ngIf="usuario.devuelveIMC>25&&usuario.devuelveIMC<31" style="background-color: rgba(253, 179, 41, 0.527);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
+                     <p><span class="gor" *ngIf="usuario.devuelveIMC>31"  style="background-color: rgba(236, 74, 33, 0.787);">IMC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
+
+                    </div>
+               
+            </div>
+        </div>
+        <div class="tips">
+            <div class="tip">
+                <p class="mitad1">0 - 17</p>
+                <p class="mitad3">=></p>
+                <p class="mitad2 i">Peso insuficiente</p>
+            </div>
+            <div class="tip">
+                <p class="mitad1">17 - 25</p>
+                <p class="mitad3">=></p>
+                <p class="mitad2 n">Peso normal</p>
+            </div>
+            <div class="tip">
+                <p class="mitad1">26 - 30 </p>
+                <p class="mitad3">=></p>
+                <p class="mitad2 s">Sobrepeso</p>
+            </div>
+            <div class="tip">
+                <p class="mitad1">+ 30</p>
+                <p class="mitad3">=></p>
+                <p class="mitad2 o">Obesidad</p>
+            </div>
+        </div>
+    </div>
+    <div class="comentario">
+        <p *ngIf="usuario.devuelveIMC>0&&usuario.devuelveIMC<18">
+            Cuando el IMC está por debajo de 18,5 indica
+            que se está en un peso bajo. Sería conveniente
+            valorar con un especialista la necesidad de
+            aumentar el peso o estudiar el motivo de este peso bajo.
+            También se debería estudiar si la alimentación que sigue
+            es suficiente como para aportar los nutrientes necesarios.
+        </p>
+        <p *ngIf="usuario.devuelveIMC>17&&usuario.devuelveIMC<26">
+            Está en un peso correcto por su estatura. Si se siente a gusto con su peso y mantiene un buen estado de salud, es
+            recomendable que se mantenga en este peso. Le recomendamos siga con unos hábitos saludables de alimentación y
+            práctica regular de ejercicio. En el caso de desear más información de su estado físico disponemos de la última
+            tecnología para el estudio de su metabolismo, con el porcentaje corporal de su masa muscular, grasa y ósea, para
+            ayudarle a mantener su peso ideal.
+        </p>
+        <p *ngIf="usuario.devuelveIMC>25&&usuario.devuelveIMC<31">
+            Está en un peso por encima del recomendado, situándose en una Obesidad de segundo grado. El exceso de peso que tiene
+            le predispone a padecer enfermedades metabólicas graves que se deben estudiar y tratar. Consulte con un equipo
+            especializado y multidisciplinar para realizar un estudio de la obesidad y empezar un tratamiento que contemple
+            cambios en la alimentación y grado de actividad física, y se valoren opciones como la colocación de un Balón
+            Intragástrico por vía endoscópica.
+        </p>
+        <p *ngIf="usuario.devuelveIMC>31">
+            Está en un peso por encima del recomendado, situándose en una Obesidad mórbida. Su exceso de peso le predispone a
+            padecer enfermedades metabólicas graves que se deben estudiar y tratar. Consulte con un equipo especializado y
+            multidisciplinar para hacer un estudio de la obesidad y empezar un tratamiento que contemple cambios en la
+            alimentación, grado de actividad física y valorar la realización de una Cirugía de la Obesidad. Le recomendamos
+            solicite una primera visita con nuestros Servicios de Endocrinología, Nutrición y Dietética para iniciar el estudio.
+        </p>
+    </div>
+</div>
