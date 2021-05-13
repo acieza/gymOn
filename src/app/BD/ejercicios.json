@@ -1,0 +1,185 @@
+[{
+  "_id": {
+    "$oid": "609953f97897a91ee0db0e6f"
+  },
+  "nombre": "Fondos",
+  "ejer": [
+    {
+      "_id": {
+        "$oid": "609953f97897a91ee0db0e70"
+      },
+      "nombreEjer": "fondos1",
+      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
+      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6099549a7897a91ee0db0e71"
+  },
+  "nombre": "Fondos2",
+  "ejer": [
+    {
+      "_id": {
+        "$oid": "6099549a7897a91ee0db0e72"
+      },
+      "nombreEjer": "fondos1",
+      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
+      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609955ae2c9bcc2700eb20ed"
+  },
+  "nombre": "Fondos3",
+  "ejer": [
+    {
+      "_id": {
+        "$oid": "609955ae2c9bcc2700eb20ee"
+      },
+      "nombreEjer": "fondos1",
+      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
+      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6099560d757eba20545906ba"
+  },
+  "nombre": "Fondos4",
+  "ejer": [
+    {
+      "_id": {
+        "$oid": "6099560d757eba20545906bb"
+      },
+      "nombreEjer": "fondos1",
+      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
+      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6099563a6d20114bd03fed8a"
+  },
+  "nombre": "Fondos5",
+  "ejer": [
+    {
+      "_id": {
+        "$oid": "6099563a6d20114bd03fed8b"
+      },
+      "nombreEjer": "fondos1",
+      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
+      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6099589d21e75636885aae9b"
+  },
+  "nombre": "Fondos6",
+  "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
+  "detalle": "5 Errores que se cometen al hacer fondos en calisténia",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609cff9136775535647ec8e3"
+  },
+  "nombre": "Principiantes",
+  "link": "https://www.youtube.com/embed/UqB65gs_Lr0",
+  "detalle": "En este vídeo les voy a mostrar una rutina para principiantes. La puedes hacer en su gimnasio local o en el parque, solamente necesitas una barra y el piso, esta rutina les ayudará a coger fuerza y músculo para progresar y poder avanzar a las cosas más complicadas. ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609cffcd36775535647ec8e4"
+  },
+  "nombre": "Desde 0",
+  "link": "https://www.youtube.com/embed/3N4nc8fc0Io",
+  "detalle": "En este vídeo les voy a mostrar una rutina para principiantes. La puedes hacer en su gimnasio local o en el parque, solamente necesitas una barra y el piso, esta rutina les ayudará a coger fuerza y músculo para progresar y poder avanzar a las cosas más complicadas. ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d000936775535647ec8e5"
+  },
+  "nombre": "0 Grasa",
+  "link": "https://www.youtube.com/embed/A_Ye_IH5zMc",
+  "detalle": "En este vídeo veremos como iniciar en calistenia si es que tienes sobrepeso ya que suele ser muy difícil empezar sin una guía para aquellas personas que no pueden hacer los ejercicios básicos de calistenia. Por ello, me acompaña Dylan, un joven de 16 que busca ponerse en forma haciendo únicamente ejercicios de peso corporal.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d004e36775535647ec8e6"
+  },
+  "nombre": "Intermedio",
+  "link": "https://www.youtube.com/embed/H-WM7p8cORE",
+  "detalle": "En este vídeo veremos como iniciar en calistenia en nivel Intermedio.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d009936775535647ec8e7"
+  },
+  "nombre": "En casa",
+  "link": "https://www.youtube.com/embed/b_ULlKd0_7Y",
+  "detalle": "Que tal SBARTANOS ATHLETES??? ya puedes entrenar en casa sin ningún tipo de material, con esta RUTINA de calistenia en CASA sin MATERIAL  solamente un sofá o mesa y una silla 😱😱 y además puedes hacerla con nosotros a la vez mientras miras el vídeo !!!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d10c40dd9340c84657320"
+  },
+  "nombre": "Rutina en Casa",
+  "link": "https://www.youtube.com/embed/lh1UszyPHfk",
+  "detalle": "Debe comprender que al participar en cualquier ejercicio o programa de ejercicios, existe la posibilidad de lesiones físicas. Si participa en este ejercicio o programa de ejercicios, acepta que lo hace bajo su propio riesgo, participa voluntariamente en estas actividades, asume todo el riesgo de lesiones y acepta liberar y despedir a AdrianFit y/o Luis Adrián Pérez Flores de cualquier reclamo o causas de acción, conocidos o desconocidos, que surjan de la negligencia de AdrianFit y/o Luis Adrián Pérez Flores",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d10d10dd9340c84657321"
+  },
+  "nombre": "Crossfit 5 días",
+  "link": "https://www.youtube.com/embed/CTQ8AycA0vU",
+  "detalle": "El Crossfit se ha puesto de moda, y cada vez se abren más boxes por todo Madrid. Pero como todo nuevo movimiento fitness que se precie, ¿podría tratarse de una moda, o de verdad funciona? Vamos a ver qué pasa cuando entrenas 5 días a la semana durante un mes con tu peso corporal, con movimientos de halterofilia, o con aparatos como anillas y cajones.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d10d80dd9340c84657322"
+  },
+  "nombre": "Básicos 4",
+  "link": "https://www.youtube.com/embed/8qbzFTlcrmQ",
+  "detalle": "En CrossFit trabajamos con todo tipo de ejercicios. Desde los movimientos más fundamentales a los más complejos. Algunos movimientos pueden resultar complejos y requieren cierta experiencia, pero la mayoría de ellos se basan en 9 movimientos básicos de CrossFit. Hoy Dany nos explica 4 movimientos básicos.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d10df0dd9340c84657323"
+  },
+  "nombre": "Que es Crossfit",
+  "link": "https://www.youtube.com/embed/BIB02FsDg8U",
+  "detalle": "¿Qué es Crossfit? Este es un vídeo introductorio a la sección de CrossFit, para que veáis en qué instalaciones se realiza este deporte y entendáis un poco mejor de qué se trata.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d110f0dd9340c84657324"
+  },
+  "nombre": "Cuerda",
+  "link": "https://www.youtube.com/embed/AnQwqHgZdoQ",
+  "detalle": "En menos de 15 minutos te enseñaré a saltar la cuerda desde cero, te aconsejaré sobre qué tipo de cuerda comprar, cual es la ideal para ti, los diferentes saltos que existen y todo lo que necesitas saber para convertirte en un experto brincando cuerda.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d117e0dd9340c84657325"
+  },
+  "nombre": "Como Usar La Battle Rope",
+  "link": "https://www.youtube.com/embed/I2zzgZnd1VI",
+  "detalle": "La soga de batalla es una de las maneras mas dinámicas y efectivas de hacer cardio sin impacto! y en este video les mostramos 10 ejercicios con soga de batalla que pueden agregar a su circuito de cardio en casa, gym o en cualquier parte...",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d11bf0dd9340c84657326"
+  },
+  "nombre": "Crossfit Principiantes",
+  "link": "https://www.youtube.com/embed/1WjTJCUn9A4",
+  "detalle": "¡Hola Familia Deportista! ¿Has oído hablar sobre el Crosstraining? Ya nuestro atleta Álvaro nos había explicado en nuestros videos anteriores todo sobre ello, desde beneficios, ejercicios, cosas que debes evitar hacer y hoy te traemos una rutina de wod para principiantes. ",
+  "__v": 0
+}]

@@ -4,11 +4,13 @@
   },
   "role": "admin",
   "clases": [],
-  "nombre": "asaci0333",
+  "nombre": "asaci",
   "email": "asanjuancieza@gmail.com",
   "password": "$2a$10$2SQZxJLlA.RwBWYN75Ol0e7zYQCYHps8mA8OHNBOAammLyY8Dq98u",
   "__v": 0,
-  "img": "b9da9c77671e394231eef93fa6fc6432.jpeg"
+  "img": "123cc3163678383d8102795488c2367d.png",
+  "altura": 1.8,
+  "peso": 76
 },{
   "_id": {
     "$oid": "605320fec9771905a8535d1d"
@@ -47,20 +49,13 @@
   },
   "role": "user",
   "clases": [],
-  "nombre": "Fernando",
+  "nombre": "Fernanda",
   "password": "$2a$10$D1W2c2y6Vv4XAtdl853h0ObcqpJvw88xBJzzUwanecZp3KzHADtMS",
-  "email": "fernando@gmail.com",
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "608984097d176239a05af4b9"
-  },
-  "role": "user",
-  "clases": [],
-  "nombre": "Roberto",
-  "password": "$2a$10$tA0.o3Sd9jL0jWGEC21hSOy9ICaRxdXGkoRXiLchp.v7smKHHIps2",
-  "email": "Roberto@gmail.com",
-  "__v": 0
+  "email": "fernanda@gmail.com",
+  "__v": 0,
+  "img": "1e470a3d3a71efea22416b92873ddafd.jpeg",
+  "altura": 162,
+  "peso": null
 },{
   "_id": {
     "$oid": "608984137d176239a05af4ba"
@@ -105,7 +100,7 @@
   "_id": {
     "$oid": "608984bb7d176239a05af4be"
   },
-  "role": "profesor",
+  "role": "user",
   "clases": [],
   "nombre": "Christian",
   "password": "$2a$10$WWMjh9Uu9xKFvkbcrZxxJupOKHiMbZKKeqzSPmQQA09W5F3kRG7bW",
@@ -175,4 +170,147 @@
   "email": "alber@gmail.com",
   "password": "$2a$10$m9MEWKG/haENG3sEYYYUcufppg1t0rMjKqbo.D6X6NVSlcq0wTcnS",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "60902a23414b9213184539a3"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Arisco",
+  "email": "arisco@gmail.com",
+  "password": "$2a$10$pvr0G6n8klQd.I9tGDCsUeKk6/jslyzz3.OwUlCMBKWEHlQ49w2Eu",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6092bd40d1ad7f262c39ceec"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Alb",
+  "email": "alba@gmail.com",
+  "password": "$2a$10$tnSMYgTfEBnqf7YU0.fqKuUHDVtF9wmYpgT209QsjzyKBmKChINUy",
+  "__v": 0,
+  "img": "967de56df86a4114b53a0b6fe6d39a36.jpeg",
+  "altura": 125,
+  "peso": 45
+},{
+  "_id": {
+    "$oid": "6092bd6dd1ad7f262c39ceed"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Alba",
+  "email": "alb@gmail.com",
+  "altura": null,
+  "password": "$2a$10$aCRPDu9oHqyUpLp1knwBDOvsWF9vFpjolYZf4p4Kmi/sqWXlRZd06",
+  "__v": 0,
+  "img": "4943581208c1665269a23a9b15331a7f.jpeg",
+  "peso": 12
+},{
+  "_id": {
+    "$oid": "6092bd7ed1ad7f262c39ceee"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Alba",
+  "email": "a@gmail.com",
+  "altura": 180,
+  "peso": 76,
+  "password": "$2a$10$SJsU/Jk.NC33.vIzsYYlD.iA4laVT3zAZCqn/ppd3lpseADiVIT.6",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6097aa574e0a0b1b70d021f2"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "francisquito",
+  "email": "francisquito@gmail.com",
+  "password": "$2a$10$rS0r/U4AFMn82hWR6yqxjeoYJYmgbp7iRqMZHuvIK92VYqcbQLWxq",
+  "__v": 0,
+  "altura": 180,
+  "img": "d90a465d5355cdf072ec35db6f9989b5.jpeg",
+  "peso": 80
+},{
+  "_id": {
+    "$oid": "60994c1cde5dbb2bc07e05e7"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "roberto",
+  "email": "roberto@gmail.com",
+  "password": "$2a$10$Ani8kWTYY5MMo1m2bJ3iPucpWvkVLdcu0T3Vq1BtPLDUYir1WN582",
+  "__v": 0,
+  "altura": 178,
+  "img": "d3b7c888b0855707a3c736c1565ec8b6.jpeg",
+  "peso": 59
+},{
+  "_id": {
+    "$oid": "60995e731940cd2ef0292449"
+  },
+  "role": "admin",
+  "clases": [
+    {
+      "$oid": "609959c4d510ed3ea01a2072"
+    }
+  ],
+  "nombre": "asaci2",
+  "password": "$2a$10$XG9z8Hha9vbBgmpYrd6d1..PldrVNRiqe6Iqn62fty6rw3E/l5P2i",
+  "email": "asanjuancieza2@gmail.com",
+  "img": "123cc3163678383d8102795488c2367d.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609ab6eb63645c3b181a9c17"
+  },
+  "role": "user",
+  "clases": [
+    {
+      "$oid": "609aab1063645c3b181a9c16"
+    },
+    {
+      "$oid": "609aa92163645c3b181a9c13"
+    },
+    {
+      "$oid": "609aaa2663645c3b181a9c14"
+    },
+    {
+      "$oid": "609aaaae63645c3b181a9c15"
+    },
+    {
+      "$oid": "609d01bc0dd9340c8465731f"
+    },
+    {
+      "$oid": "609d129f0dd9340c84657327"
+    }
+  ],
+  "nombre": "asaci3",
+  "email": "asanjuancieza3@gmail.com",
+  "img": "1fe33426a05cd3f66ba253612a9c081d.jpeg",
+  "password": "$2a$10$kOCFMKLjTcS0PPfh377AGeEoJyn7NY7SCrMqVk0EgO1IJDlpU.y8i",
+  "__v": 0,
+  "altura": 189,
+  "peso": 45
+},{
+  "_id": {
+    "$oid": "609bfad42959845230eccb8b"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Abeto",
+  "email": "abeto@gmail.com",
+  "password": "$2a$10$wW84ZON759Xn47v3OmaqIO.7QriiX2Mps0uF263kGsbQ.jrw22MA.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609c335b2959845230eccb8c"
+  },
+  "role": "user",
+  "clases": [],
+  "nombre": "Nina",
+  "email": "nina@gmail.com",
+  "password": "$2a$10$DQ6oDLgJ93NJKEqWAolibuSCuzhJCroANC5SxHXBlG8otkRZVyhcC",
+  "__v": 0,
+  "altura": 167,
+  "peso": 67
 }]

@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "609433a9cb422c3510af7634"
+  },
+  "imagen": "25ec6e916fd84350dce4d2f2ae508d54.jpeg",
+  "titulo": "aaa",
+  "descripcion": "aaaa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609433b2cb422c3510af7635"
+  },
+  "imagen": "ba914ab3ffc304c23ea8dbb7b93e61b8.jpeg",
+  "titulo": "aaabb",
+  "descripcion": "aaaabbb",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609433bbcb422c3510af7636"
+  },
+  "imagen": "bef1e3d5cbc64c59fc7f7f4f6aa05241.jpeg",
+  "titulo": "aaabbccc",
+  "descripcion": "aaaabbbcccc",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6094432fcb422c3510af7637"
+  },
+  "imagen": "37e8a22a60daf5bf8d1ce40c987d5deb.jpeg",
+  "titulo": "Sala de Pilates",
+  "descripcion": "movimientos controlados para el cuerpo y la mente.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60944356cb422c3510af7638"
+  },
+  "imagen": "604d3b3e6c5b6b9af6755841bbc6f877.jpeg",
+  "titulo": "Sala de Estiramiento",
+  "descripcion": "movimientos controlados para el cuerpo y la mente.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60944361cb422c3510af7639"
+  },
+  "imagen": "04ea1a9abb77820eef68cf3202d8d7ef.jpeg",
+  "titulo": "Sala de Estiramientos",
+  "descripcion": "movimientos controlados para el cuerpo y la mente.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609443b0cb422c3510af763a"
+  },
+  "imagen": "bfe669a39f4e17b75d8fa04cb925f66d.jpeg",
+  "titulo": "Musculación",
+  "descripcion": "Sala de Máquinas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6097a7aa4e0a0b1b70d021f1"
+  },
+  "imagen": "8dbca9090ec252d8d9b00cadb69b346a.jpeg",
+  "titulo": "Sentadillas",
+  "descripcion": "Una mierda como un piano",
+  "__v": 0
+}]

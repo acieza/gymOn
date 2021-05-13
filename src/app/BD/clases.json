@@ -1,11 +1,94 @@
 [{
   "_id": {
-    "$oid": "60643a3f73c6182230d341a9"
+    "$oid": "609aaaae63645c3b181a9c15"
   },
+  "ejercicios": [
+    {
+      "$oid": "6099589d21e75636885aae9b"
+    }
+  ],
+  "nombre": "Yoga",
+  "imagen": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "descripcion": "Prácticas de tipo físico, mental y espiritual, cuyo objetivo es lograr el equilibrio entre el cuerpo y mente para alcanzar la iluminación y la trascendencia",
+  "diaS": "Martes/Jueves",
+  "hora": "12:45",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609aab1063645c3b181a9c16"
+  },
+  "ejercicios": [
+    {
+      "$oid": "6099589d21e75636885aae9b"
+    }
+  ],
+  "nombre": "Kick boxing",
+  "imagen": "https://images.pexels.com/photos/7045401/pexels-photo-7045401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "descripcion": "artes marciales y deportes de combate stand-up basados ​​en patadas y puñetazos, desarrollados históricamente de karate, Muay Thai y el boxeo occidental",
+  "diaS": "Miercoles",
+  "hora": "12:45",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d01bc0dd9340c8465731f"
+  },
+  "ejercicios": [
+    {
+      "$oid": "6099589d21e75636885aae9b"
+    },
+    {
+      "$oid": "609d009936775535647ec8e7"
+    },
+    {
+      "$oid": "609d004e36775535647ec8e6"
+    },
+    {
+      "$oid": "609d000936775535647ec8e5"
+    },
+    {
+      "$oid": "609cffcd36775535647ec8e4"
+    },
+    {
+      "$oid": "609cff9136775535647ec8e3"
+    }
+  ],
   "nombre": "Calistenia",
-  "imagen": "asdfasdf.jpg",
-  "descripcion": "Calistenia",
-  "diaS": "Martes, Jueves",
-  "hora": "11:00",
+  "imagen": "https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "descripcion": "La calistenia es un sistema de ejercicios físicos con el propio peso corporal. En este sistema, el interés está en los movimientos de las cadenas musculares que componen nuestro cuerpo. ... El objetivo es la adquisición de fuerza y belleza en el ejercicio. Es la belleza que tiene el cuerpo en movimiento.",
+  "diaS": "Martes/Viernes",
+  "hora": "11:30",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609d129f0dd9340c84657327"
+  },
+  "ejercicios": [
+    {
+      "$oid": "609d11bf0dd9340c84657326"
+    },
+    {
+      "$oid": "609d117e0dd9340c84657325"
+    },
+    {
+      "$oid": "609d110f0dd9340c84657324"
+    },
+    {
+      "$oid": "609d10df0dd9340c84657323"
+    },
+    {
+      "$oid": "609d10d80dd9340c84657322"
+    },
+    {
+      "$oid": "609d10d10dd9340c84657321"
+    },
+    {
+      "$oid": "609d10c40dd9340c84657320"
+    }
+  ],
+  "nombre": "Crossfit",
+  "imagen": "https://images.pexels.com/photos/949130/pexels-photo-949130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "descripcion": " método de entrenamiento basado en ejercicios constantemente variados, con movimientos funcionales ejecutados a alta intensidad. Es el entrenamiento por excelencia de cuerpos militares, policiales y de bomberos.",
+  "diaS": "Lunes/Jueves",
+  "hora": "10:45",
   "__v": 0
 }]
