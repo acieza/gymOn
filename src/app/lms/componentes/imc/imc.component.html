@@ -13,9 +13,9 @@
             </div>
             <div class="imc">
                 <div class="btn2">
-                     <p><span class="gor" *ngIf="usuario.devuelveIMC>0&&usuario.devuelveIMC<18" style="background-color: rgba(73, 138, 236, 0.527);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
-                     <p><span class="gor" *ngIf="usuario.devuelveIMC>17&&usuario.devuelveIMC<26" style="background-color: rgba(169, 236, 92, 0.616);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
-                     <p><span class="gor" *ngIf="usuario.devuelveIMC>25&&usuario.devuelveIMC<31" style="background-color: rgba(253, 179, 41, 0.527);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
+                     <p><span class="gor" *ngIf="usuario.devuelveIMC>0&&usuario.devuelveIMC<=17" style="background-color: rgba(73, 138, 236, 0.527);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
+                     <p><span class="gor" *ngIf="usuario.devuelveIMC>17&&usuario.devuelveIMC<=26" style="background-color: rgba(169, 236, 92, 0.616);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
+                     <p><span class="gor" *ngIf="usuario.devuelveIMC>26&&usuario.devuelveIMC<=31" style="background-color: rgba(253, 179, 41, 0.527);">IMCC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
                      <p><span class="gor" *ngIf="usuario.devuelveIMC>31"  style="background-color: rgba(236, 74, 33, 0.787);">IMC : {{usuario.devuelveIMC | number : '1.2-2'}}</span>  </p>
 
                     </div>

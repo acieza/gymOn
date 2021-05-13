@@ -22,21 +22,26 @@ export class VideosComponent implements OnInit {
     private activateRouter: ActivatedRoute,
     private sanitizer: DomSanitizer,
     private clasesService: ClasesService
-  ) { }
+  ) {
+    
+   }
 
   ngOnInit(): void {
     this.activateRouter.params.subscribe((params: Params)=>{       
       this.identificaClase=params.id
       this.getPopuEjer(this.identificaClase)
-      console.log(this.identificaClase)     
+      console.log(this.identificaClase)  
     })
+   
+    // console.log(this.link)
   }
 
   getPopuEjer(id:string){
     this.clasesService.getEjercicioPopu(id)
     .subscribe(clases =>{
       this.ejercicios = clases.ejercicios;
-      console.log(this.ejercicios)
+      console.log(this.ejercicios);
+      this.pasaValor(this.ejercicios[0].link, this.ejercicios[0].detalle);
     })
   }
 

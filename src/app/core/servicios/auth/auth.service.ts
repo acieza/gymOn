@@ -62,6 +62,8 @@ export class AuthService {
   }
 
   modificarUser(putUser: Usuario){
+    this.usuario.altura = putUser.altura;
+    this.usuario.peso = putUser.peso;
     const token = localStorage.getItem('token') || ''
     return this.http.put<Usuario>(`http://localhost:3000/usuarios/${this.usuario._id}`, putUser, {
       headers: {
