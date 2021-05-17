@@ -28,9 +28,7 @@ export class Usuario {
         }
     }
 
-    get devuelveIMC(){
-    //    var imc:Number = (this.peso / ((this.altura/100) * (this.altura/100)));
-       
+    get devuelveIMC(){       
        return this.peso / ((this.altura/100) * (this.altura/100));
     }
 
