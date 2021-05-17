@@ -72,13 +72,13 @@ export class ClasesComponent {
 
     editarClase(id: string){
 
-     this.router.navigateByUrl(`../Editar/${id}`);
+     this.router.navigateByUrl(`../editClass/${id}`);
     }
     /************************************************************* */
 
   filteredItems: Clase[];
   pages: number = 4;
-  pageSize: number = 4;
+  pageSize: number = 3;
   pageNumber: number = 0;
   currentIndex: number = 1;
   items: Clase[];

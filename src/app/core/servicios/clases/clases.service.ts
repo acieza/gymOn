@@ -30,9 +30,9 @@ export class ClasesService {
     })
   }
 
-  modificarClase(id: string, putCurso: Clase){
+  modificarClases(id: string, putClase: Clase){
     const token = localStorage.getItem('token') || ''
-    return this.http.put<Clase>(`http://localhost:3000/clases/${id}`, putCurso, {
+    return this.http.put<Clase>(`http://localhost:3000/clases/${id}`, putClase, {
       headers: {
         'mytoken':JSON.parse(token)
       }});

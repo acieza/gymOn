@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AdminComponent } from './admin.component';
 import { ClasesComponent } from './componentes/clases/clases.component';
 import { ComentariosComponent } from './componentes/comentarios/comentarios.component';
+import { EditClassComponent } from './componentes/edit-class/edit-class.component';
 import { EditUserComponent } from './componentes/edit-user/edit-user.component';
 import { GaleriaComponent } from './componentes/galeria/galeria.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
@@ -50,6 +51,10 @@ const routes: Routes = [
       {
         path: 'galeria',
         component: GaleriaComponent
+       },
+       {
+        path: 'editClass/:id',
+        component: EditClassComponent
        }
      ]
   },

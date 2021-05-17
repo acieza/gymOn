@@ -1,7 +1,7 @@
 import { Ejercicio } from "./ejercicio";
 
 export interface Clase {
-  _id:string;
+ 
   imagen: string;
   nombre: string;
   descripcion: string;

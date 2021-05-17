@@ -16,9 +16,10 @@ import { CartaComponent } from './componentes/carta/carta.component';
 import { GaleriaComponent } from './componentes/galeria/galeria.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SliderComponent } from './componentes/galeria/slider/slider.component';
+import { EditClassComponent } from './componentes/edit-class/edit-class.component';
 
 @NgModule({
-  declarations: [AdminComponent, PerfilComponent,ClasesComponent,UsuariosComponent, ProfesoresComponent, InicioComponent, EditUserComponent, ComentariosComponent, CartaComponent, GaleriaComponent, SliderComponent],
+  declarations: [AdminComponent, PerfilComponent,ClasesComponent,UsuariosComponent, ProfesoresComponent, InicioComponent, EditUserComponent, ComentariosComponent, CartaComponent, GaleriaComponent, SliderComponent, EditClassComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,

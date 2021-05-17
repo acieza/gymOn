@@ -1,0 +1,45 @@
+<div class="caja">
+
+    <form [formGroup]="form" (ngSubmit)="modificaClase($event)">
+        <div class="enun">Modificar Clase</div>
+        <div class="lineaT">
+            <div  class="titulo1">Imagen</div>
+            <input (change)="uploadFile($event)"  class="titulo1" type="file" name="" id="">
+
+        </div>
+        <div class="linea">
+        </div>
+
+        <div class="lineaT">
+            <div  class="titulo1">Nombre <span class="rojo" *ngIf="form.get('nombre').hasError('required') && form.get('nombre').dirty">*Nombre es requerido</span></div>
+            <input  formControlName="nombre" class="esp input1" type="text" name="" id="">
+        </div>
+        
+        <div class="linea">
+            
+        </div>
+        <!--  -->
+        <div class="lineaT">
+            <div  class="titulo1">Día Semana <span class="rojo" *ngIf="form.get('diaS').hasError('required') && form.get('diaS').dirty">*Dia Semana es requerido</span></div>
+            <div  class="titulo2">Hora</div>
+        </div>
+        
+        <div class="linea">
+            <input formControlName="diaS" class="esp input1" type="text" name="" id="">
+            <input  formControlName="hora" type="text" name="" id="">
+        </div>
+        <div class="alinear">
+            <div>Descripcion</div>
+        </div>
+        <textarea formControlName="descripcion" name="" id="" cols="30" rows="5"></textarea>
+        
+        <div class="centrar2">
+           
+            <div class="botones">
+                <button type="submit">Guardar Cambios</button>
+            </div>
+
+        </div>
+    </form>
+
+</div>
