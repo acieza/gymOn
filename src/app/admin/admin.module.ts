@@ -17,9 +17,11 @@ import { GaleriaComponent } from './componentes/galeria/galeria.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SliderComponent } from './componentes/galeria/slider/slider.component';
 import { EditClassComponent } from './componentes/edit-class/edit-class.component';
+import { AnadirEComponent } from './componentes/anadir-e/anadir-e.component';
+import { AnadirClassComponent } from './componentes/anadir-class/anadir-class.component';
 
 @NgModule({
-  declarations: [AdminComponent, PerfilComponent,ClasesComponent,UsuariosComponent, ProfesoresComponent, InicioComponent, EditUserComponent, ComentariosComponent, CartaComponent, GaleriaComponent, SliderComponent, EditClassComponent],
+  declarations: [AdminComponent, PerfilComponent,ClasesComponent,UsuariosComponent, ProfesoresComponent, InicioComponent, EditUserComponent, ComentariosComponent, CartaComponent, GaleriaComponent, SliderComponent, EditClassComponent, AnadirEComponent, AnadirClassComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { ClasesService } from 'src/app/core/servicios/clases/clases.service';
 import { Clase } from 'src/app/models/clase';
 
@@ -7,15 +7,12 @@ import { Clase } from 'src/app/models/clase';
   templateUrl: './all-class.component.html',
   styleUrls: ['./all-class.component.css']
 })
-export class AllClassComponent implements OnInit {
+export class AllClassComponent {
 
   clases:Clase[];
 
   constructor(private clasesService: ClasesService) {
-    this.cargaClase()
-  }
-
-  ngOnInit(): void {
+    this.cargaClase();
   }
 
   cargaClase(){
@@ -31,7 +28,6 @@ export class AllClassComponent implements OnInit {
     if(imagen=="" || imagen == null){
       return `assets/img/user.png`;
     }else{
-       
         return `http://localhost:3000/imgClase/${imagen}`;
     }
 }

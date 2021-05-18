@@ -14,7 +14,7 @@ nav{
     color: white;
 }
 .der{
-    width: 70%;
+    width: 80%;
     height: 100%;
     display: flex;
    
@@ -22,9 +22,16 @@ nav{
     align-items: center;
 }
 .izq{
-  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1em;
     width: 30%;
     height: 100%;
+}
+.izq img{
+    width: 180px;
+    height: 40px;
 }
 .central{
     height: calc(100vh - 80px);
@@ -91,7 +98,7 @@ li{
     cursor: pointer;
     color: white;
     margin-top: 1em;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 ul{

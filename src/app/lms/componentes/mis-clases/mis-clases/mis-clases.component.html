@@ -5,7 +5,7 @@
        <div class="card-wrapper  col-lg-4 col-md-6 col-xs-12" *ngFor="let item of listado">
          <div class="card">
            <div class="card-img-wrapper">
-             <img class="card-img-top" [src]="item.imagen" alt="Card image cap">
+             <img class="card-img-top" [src]="devuelveImagen(item.imagen)" alt="Card image cap">
            </div>
            <div class="card-body">
              <h5 class="card-title">{{item.nombre}}</h5>

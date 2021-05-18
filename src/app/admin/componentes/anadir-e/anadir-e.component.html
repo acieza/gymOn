@@ -1,0 +1,45 @@
+<div class="caja">
+
+    <form [formGroup]="form" (ngSubmit)="crearEjer($event)">
+        <div class="enun">Añadir Ejercicios</div>
+        <!-- <div class="lineaT">
+            <div  class="titulo1">Imagen</div>
+            <input (change)="uploadFile($event)"  class="titulo1" type="file" name="" id="">
+
+        </div> -->
+        <!-- <div class="linea">
+        </div> -->
+
+        <div class="lineaT">
+            <div  class="titulo1">Nombre <span class="rojo" *ngIf="form.get('nombre').hasError('required') && form.get('nombre').dirty">*Nombre es requerido</span></div>
+            <input  formControlName="nombre" class="esp input1" type="text" name="" id="">
+        </div>
+        
+        <div class="linea">
+            
+        </div>
+        <!--  -->
+        <div class="lineaT">
+            <div  class="titulo1">Link <span class="rojo" *ngIf="form.get('link').hasError('required') && form.get('link').dirty">*Link del video</span></div>
+            <input formControlName="link" class="esp input1" type="text" name="" id="">
+        </div>
+        
+        <div class="linea">
+            
+            <!-- <input  formControlName="hora" type="text" name="" id=""> -->
+        </div>
+        <div class="alinear">
+            <div>Detalle del Ejercicio</div>
+        </div>
+        <textarea formControlName="detalle" name="" id="" cols="30" rows="5"></textarea>
+        
+        <div class="centrar2">
+           
+            <div class="botones">
+                <button type="submit">Guardar Cambios</button>
+            </div>
+
+        </div>
+    </form>
+
+</div>

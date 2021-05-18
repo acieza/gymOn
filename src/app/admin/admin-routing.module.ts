@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AdminComponent } from './admin.component';
+import { AnadirClassComponent } from './componentes/anadir-class/anadir-class.component';
+import { AnadirEComponent } from './componentes/anadir-e/anadir-e.component';
 import { ClasesComponent } from './componentes/clases/clases.component';
 import { ComentariosComponent } from './componentes/comentarios/comentarios.component';
 import { EditClassComponent } from './componentes/edit-class/edit-class.component';
@@ -55,6 +57,14 @@ const routes: Routes = [
        {
         path: 'editClass/:id',
         component: EditClassComponent
+       },
+       {
+        path: 'anadirE/:id',
+        component: AnadirEComponent
+       },
+       {
+        path: 'anadirClass',
+        component: AnadirClassComponent
        }
      ]
   },

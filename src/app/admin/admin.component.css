@@ -21,10 +21,17 @@ nav{
     align-items: flex-end;
 }
 .izq{
-  
-    width: 50%;
-    height: 100%;
-}
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1em;
+      width: 30%;
+      height: 100%;
+  }
+  .izq img{
+      width: 180px;
+      height: 40px;
+  }
 .central{
     height: calc(100vh - 80px);
     width: 100%;

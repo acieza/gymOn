@@ -12,10 +12,10 @@ export class MisClasesComponent implements OnInit {
   public usuario;
 
   id = "";
-  listado: Clase[]=[]
+  listado: Clase[] = []
 
   constructor
-  (private authService: AuthService,) { this.usuario = this.authService.usuario; }
+    (private authService: AuthService,) { this.usuario = this.authService.usuario; }
 
   ngOnInit(): void {
     this.cargaClaseAlum(this.usuario._id)
@@ -30,6 +30,14 @@ export class MisClasesComponent implements OnInit {
         console.log(err.error.msg);
       }
     )
+  }
 
-}
+  devuelveImagen(imagen: string) {
+
+    if (imagen == "" || imagen == null) {
+      return `assets/img/user.png`;
+    } else {
+      return `http://localhost:3000/imgClase/${imagen}`;
+    }
+  }
 }

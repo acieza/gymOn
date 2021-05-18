@@ -3,8 +3,13 @@ th{
     color: white;
 }
 .usu{
-    font-size: 34px;
+    font-size: 18px;
     /* margin-right: 2em; */
+    border: 1px solid grey;
+    padding: 5px 20px;
+    border-radius: 5px;
+    /* background-color: #5387E9; */
+    color: white;
 }
 .container{
     width: 70%;

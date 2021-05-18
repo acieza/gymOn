@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Clase } from 'src/app/models/clase';
+import { Ejercicio } from 'src/app/models/ejercicio';
 
 @Injectable({
   providedIn: 'root'
@@ -48,5 +49,11 @@ export class ClasesService {
   }
   getEjercicioPopu(id: string){
     return this.http.get<Clase>(`http://localhost:3000/clases/total/${id}`)
+  }
+  createEjercicio(newEjer:Ejercicio, id:string){
+    
+    return this.http.post<Ejercicio>(`http://localhost:3000/ejercicios/${id}`, newEjer,{
+
+    })
   }
 }
