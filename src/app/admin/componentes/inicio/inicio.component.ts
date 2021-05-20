@@ -2,8 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/core/servicios/auth/auth.service';
 import { ClasesService } from 'src/app/core/servicios/clases/clases.service';
 import { ComentariosService } from 'src/app/core/servicios/comentarios/comentarios.service';
+import { SliderService } from 'src/app/core/servicios/slider/slider.service';
 import { Clase } from 'src/app/models/clase';
 import { Comentario } from 'src/app/models/comentario';
+import { Ejercicio } from 'src/app/models/ejercicio';
+import { Galeria } from 'src/app/models/galeria';
 import { Usuario } from 'src/app/models/usuario';
 
 @Component({
@@ -21,11 +24,14 @@ export class InicioComponent implements OnInit {
   comentarios: Comentario[]=[];
 
   clases: Clase[]=[];
+  galerias: Galeria[]=[];
+  ejercicios: Ejercicio[]=[];
 
   constructor(
     private authService: AuthService,
     private comentariosService: ComentariosService,
     private clasesService: ClasesService,
+    private sliderService: SliderService,
   ) { }
 
   ngOnInit(): void {
@@ -33,6 +39,8 @@ export class InicioComponent implements OnInit {
     this.cargaProfesores();
     this.cargaComentarios();
     this.cargaClase();
+    this.cargaGaleria();
+    this.cargaEjer();
   }
 
   cargaUsers(){
@@ -50,6 +58,13 @@ export class InicioComponent implements OnInit {
       console.log(this.profesores);
     })
   }
+  cargaGaleria(){
+    this.sliderService.getAllGaleria()
+    .subscribe(galerias =>{
+      this.galerias = galerias;
+      console.log(this.galerias);
+    })
+  }
 
   cargaComentarios(){
     this.comentariosService.getAllCarta()
@@ -64,6 +79,13 @@ export class InicioComponent implements OnInit {
     .subscribe(clases =>{
       this.clases = clases;
       console.log(this.clases);
+    })
+  }
+  cargaEjer(){
+    this.clasesService.getAllEjercicios()
+    .subscribe(ejercicios =>{
+      this.ejercicios = ejercicios;
+      console.log(this.ejercicios)
     })
   }
   

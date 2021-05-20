@@ -1,44 +1,88 @@
 .container{
     height: calc(100vh - 80px);
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 .users{
-    width: 400px;
-    height: 150px;
-    border: 1px solid black;
+    width: 350px;
+    height: 125px;
+    border: 1px solid rgb(235, 225, 225);
     display: flex;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0); 
-box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0);
 }
 .imag{
     height: 100%;
     width: 38%;
+    background-color: #0099CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .imag img{
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
 }
 .entrenadores{
-    width: 400px;
-    height: 150px;
-    border: 1px solid black;
+    width: 350px;
+    height: 125px;
+    border: 1px solid rgb(235, 225, 225);
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0); 
 box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0);
     margin-left: 0.5em;
     display: flex;
 }
+.work{
+    width: 350px;
+    height: 125px;
+    border: 1px solid rgb(235, 225, 225);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 2px -50px 0px -30px rgba(0,0,0,0);
+    margin-left: 0.5em;
+    display: flex;
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B3E135;
+    height: 100%;
+    width: 38%;
+}
+.image2 img, .image3 img, .image4 img, .image img{
+    height: 80%;
+    width: 80%;
+}
+
 .image{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(209, 199, 199);
     height: 100%;
     width: 38%;
 }
+.image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #FFC84A;
+    height: 100%;
+    width: 38%;
+}
+.image4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 38%;
+    border: 1px solid rgb(245, 237, 237);
+}
 .cant{
+   
     width: 63%;
     height: 100%;
     display: flex;

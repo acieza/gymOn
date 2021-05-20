@@ -42,15 +42,15 @@
                             <td >
                                 <div class="linea">
                                     <a class="text-indigo-600 hover:text-indigo-900">
-                                        <p routerLink='../anadirE/{{item._id}}' class="btn"><i class="fas fa-user-edit"></i></p>
+                                        <p routerLink='../anadirE/{{item._id}}' class="btn"><i class="fas fa-plus-square"></i></p>
                                     </a>
                             
                                     <a class="text-indigo-600 hover:text-indigo-900">
-                                        <p routerLink='../editClass/{{item._id}}' class="btn"><i class="fas fa-user-edit"></i></p>
+                                        <p routerLink='../editClass/{{item._id}}' class="btn"><i class="fas fa-cogs"></i></p>
                                     </a>
                             
                                     <a class="text-red-600 hover:text-indigo-900">
-                                        <p (click)="borrarClase(item._id)" class="btn2"><i class="fas fa-user-minus"></i></p>
+                                        <p (click)="borrarClase(item._id)" class="btn"><i class="fas fa-trash text-red-600 hover:text-indigo-900"></i></p>
                                     </a>
                                 </div>
                             </td>
