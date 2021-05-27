@@ -18,6 +18,10 @@ const routes: Routes = [
        component: PerfilComponent
      },
      {
+       path: '',
+       component: PerfilComponent
+     },
+     {
       path: 'imc',
       component: ImcComponent
     },

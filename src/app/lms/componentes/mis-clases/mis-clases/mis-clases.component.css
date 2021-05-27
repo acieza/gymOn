@@ -5,32 +5,9 @@
     justify-content: center;
     padding-top: 2em;
 }
-/*
-.caja{
-    height: 500px;
-    width: 350px;
-    border: 1px solid black;
-    border-radius:  5px;
-    margin: 2em;
-    display: flex;
-    flex-direction: column;
-}
-.titulo{
-    height: 70px;
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    color: grey;
-}
-.imagen{
-
-} */
 .card-wrapper {
     margin-bottom: 30px;
+    height: 400px;
   }
   .card-image .card .card-img-wrapper {
     height: 100%;
