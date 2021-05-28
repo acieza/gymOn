@@ -1,93 +1,5 @@
 [{
   "_id": {
-    "$oid": "609953f97897a91ee0db0e6f"
-  },
-  "nombre": "Fondos",
-  "ejer": [
-    {
-      "_id": {
-        "$oid": "609953f97897a91ee0db0e70"
-      },
-      "nombreEjer": "fondos1",
-      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
-      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
-    }
-  ],
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "6099549a7897a91ee0db0e71"
-  },
-  "nombre": "Fondos2",
-  "ejer": [
-    {
-      "_id": {
-        "$oid": "6099549a7897a91ee0db0e72"
-      },
-      "nombreEjer": "fondos1",
-      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
-      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
-    }
-  ],
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "609955ae2c9bcc2700eb20ed"
-  },
-  "nombre": "Fondos3",
-  "ejer": [
-    {
-      "_id": {
-        "$oid": "609955ae2c9bcc2700eb20ee"
-      },
-      "nombreEjer": "fondos1",
-      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
-      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
-    }
-  ],
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "6099560d757eba20545906ba"
-  },
-  "nombre": "Fondos4",
-  "ejer": [
-    {
-      "_id": {
-        "$oid": "6099560d757eba20545906bb"
-      },
-      "nombreEjer": "fondos1",
-      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
-      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
-    }
-  ],
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "6099563a6d20114bd03fed8a"
-  },
-  "nombre": "Fondos5",
-  "ejer": [
-    {
-      "_id": {
-        "$oid": "6099563a6d20114bd03fed8b"
-      },
-      "nombreEjer": "fondos1",
-      "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
-      "detalle": "5 Errores que se cometen al hacer fondos en calisténia"
-    }
-  ],
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "6099589d21e75636885aae9b"
-  },
-  "nombre": "Fondos6",
-  "link": "https://www.youtube.com/embed/Dhkb1XVUzLI",
-  "detalle": "5 Errores que se cometen al hacer fondos en calisténia",
-  "__v": 0
-},{
-  "_id": {
     "$oid": "609cff9136775535647ec8e3"
   },
   "nombre": "Principiantes",
@@ -181,5 +93,333 @@
   "nombre": "Crossfit Principiantes",
   "link": "https://www.youtube.com/embed/1WjTJCUn9A4",
   "detalle": "¡Hola Familia Deportista! ¿Has oído hablar sobre el Crosstraining? Ya nuestro atleta Álvaro nos había explicado en nuestros videos anteriores todo sobre ello, desde beneficios, ejercicios, cosas que debes evitar hacer y hoy te traemos una rutina de wod para principiantes. ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a0e53d1f183315545d49a3"
+  },
+  "nombre": "Nivel 1. Yoga",
+  "link": "https://www.youtube.com/embed/Fs3cRoCUwPw",
+  "detalle": "Soy Xuan Lan, profesora de yoga, y mi objetivo es transmitir que el yoga es mucho más que una serie de ejercicios físicos; es un estilo de vida. Por ello, en mi canal quiero mostrarte todos los beneficios del yoga. En las clases de yoga que imparto aprenderás todas las posiciones de yoga que ansías conocer, así como sus modalidades, ejercicios de relajación y meditación, consejos... ¡Todo lo necesario para practicar yoga en casa!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a0e5781f183315545d49a4"
+  },
+  "nombre": "Nivel 2. Yoga",
+  "link": "https://www.youtube.com/embed/1DZj9d4sJcw",
+  "detalle": "Soy Xuan Lan, profesora de yoga, y mi objetivo es transmitir que el yoga es mucho más que una serie de ejercicios físicos; es un estilo de vida. Por ello, en mi canal quiero mostrarte todos los beneficios del yoga. En las clases de yoga que imparto aprenderás todas las posiciones de yoga que ansías conocer, así como sus modalidades, ejercicios de relajación y meditación, consejos... ¡Todo lo necesario para practicar yoga en casa!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a0e66b1f183315545d49a5"
+  },
+  "nombre": "Estiramientos",
+  "link": "https://www.youtube.com/embed/ZqbWXx3xcuY",
+  "detalle": "En este vídeo os traigo diferentes ejercicios y estiramientos para ganar flexibilidad y movilidad. Esta rutina de ejercicios para estirar la podéis hacer antes o después de los entrenamientos, cuando queráis, incluso en los días de descanso. Espero que os ayude :)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a663784c0536332c70fb2d"
+  },
+  "nombre": "CYCLING INICIAL",
+  "link": "https://www.youtube.com/embed/orvBHhuvfOg",
+  "detalle": "Si estás empezando esta es tu clase. Realiza una sesión de cycling desde casa con tu bicicleta estática para un nivel inicial o principiante. Con solo 20 minutos y a un buen ritmo de música te lo pasarás bien practicando deporte.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6646e4c0536332c70fb2e"
+  },
+  "nombre": "Alta Intensidad",
+  "link": "https://www.youtube.com/embed/eeYYZjkcxRk",
+  "detalle": " Actividad física colectiva, realizada sobre una bicicleta estática adaptada para tal fin al ritmo de la música, en la que se efectúa un trabajo predominantemente cardiovascular de alta intensidad con intervención muy elevada de los grandes grupos musculares del tren inferior.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a665304c0536332c70fb2f"
+  },
+  "nombre": "30 min.",
+  "link": "https://www.youtube.com/embed/ofN2RNPWn54",
+  "detalle": "Cycling |  spinning | cardio | \nUna manera segura y muy eficaz de mantener\nSe en movimiento y quemas extra calorías , es muy recomendable y seguro para tus rodillas y más articulaciones! Práctica el cycling y verás magníficos resultados aunados a una buena alimentación!! ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6658c4c0536332c70fb30"
+  },
+  "nombre": "TÉCNICAS de Spinning 🚴",
+  "link": "https://www.youtube.com/embed/_cxeOZH0Rtg",
+  "detalle": " Bueno, bueno!… aquí estamos otra vez pedaleando …¡A tope! Este año vamos a tener muchas sorpresas, así que no me puedes fallar, eh!  Como siempre ya sabes que cada clase es un pequeño viaje que hacemos juntos así que espero verte todos los días en el CANAL de Youtube. Sólo te Prometo que si nos dejas un COMENTARIO, te contestaremos lo antes posible, (De verdad) 😉",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a66fa64c0536332c70fb35"
+  },
+  "nombre": "CLASE BÁSICA",
+  "link": "https://www.youtube.com/embed/urDLrXFH5Y0",
+  "detalle": "En este vídeo vamos a hacer una clase de kick boxing básica para todas las personas que quieran entrenar o empezar esta cuarentena desde casa.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a66fe34c0536332c70fb36"
+  },
+  "nombre": "PRINCIPIANTES",
+  "link": "https://www.youtube.com/embed/5ocEQexswaI",
+  "detalle": "Esta es una rutina de principiantes. \" Por su salud, muévase pues!! \"",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a670134c0536332c70fb37"
+  },
+  "nombre": "Cardio Kickboxing",
+  "link": "https://www.youtube.com/embed/U3AEP9IRW6U",
+  "detalle": "En esta rutina empezarás con un Calentamiento suave tomando contacto con tus compañeras de entrenamiento, dos mancuernas de 0,5 kilogramos de peso. Puedes aumentar o reducir el peso de éstas a tu voluntad, en función de tu condición física. También puede utilizar dos botellas de agua de medio litro o incluso hacerlo sin peso y estaría ¡genial!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a670944c0536332c70fb38"
+  },
+  "nombre": "Golpes básicos",
+  "link": "https://www.youtube.com/embed/-gGx_WqKAh8",
+  "detalle": " Garrido nos enseñan los golpes básicos del kick boxing y la guardia que se utiliza.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a670eb4c0536332c70fb39"
+  },
+  "nombre": "Quemar grasa",
+  "link": "https://www.youtube.com/embed/CwAhP_RL9Z0",
+  "detalle": "Pues en esta tercera pare hemos complicado un poco más el entrenamiento incluyendo series más difíciles en combinación con cambios de ritmo.\nEste entrenamiento al estar basado en cambios de ritmo aporta una serie de beneficios extra de cara a la perdida de grasa corporal.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a671d54c0536332c70fb3a"
+  },
+  "nombre": "RUTINA DE KICK BOXING",
+  "link": "https://www.youtube.com/embed/AVx1sbLA_NQ",
+  "detalle": "Esta rutina esta dedicada a todas esas personas que buscan liberar el estrés del día mientras pierden peso y tonifican piernas, brazos y abdomen. Además obtendrán una agudeza y fuerza mental excepcionales, logrando sentirse más seguras de sí mismas.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a673a04c0536332c70fb3b"
+  },
+  "nombre": "30-Minutos en Casa",
+  "link": "https://www.youtube.com/embed/kPl66RocFDo",
+  "detalle": "30 minutos de fuerza desde casa !!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a673d54c0536332c70fb3c"
+  },
+  "nombre": "A TU RITMO",
+  "link": "https://www.youtube.com/embed/yAT7V6pnkDA",
+  "detalle": "Descubre BODYPUMP® el entrenamiento funcional y de resistencia que fortalece y tonifica tu cuerpo en tiempo récord!! Si deseas resultados rápidos esta es la clase ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a674094c0536332c70fb3d"
+  },
+  "nombre": "NUEVA COREOGRAFÍA!",
+  "link": "https://www.youtube.com/embed/KSBuj5m9Xg4",
+  "detalle": "Arrancamos la semana con BODYPUMP® el entrenamiento funcional y de resistencia que fortalece y tonifica tu cuerpo en tiempo récord!! Si deseas resultados rápidos esta es la clase que buscas.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a674384c0536332c70fb3e"
+  },
+  "nombre": "Rutina Brazos",
+  "link": "https://www.youtube.com/embed/u3ZhOqIzKcs",
+  "detalle": "BODY POWER A #02 - Rutina de BÍCEPS al ritmo de la música (entrenamiento de brazos tipo Body Pump de Les Mills). Tabla workout de libre uso donde, con barra, discos y banco puedes entrenar conmigo al ritmo del beat más motivante.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a674a34c0536332c70fb3f"
+  },
+  "nombre": "TRÍCEPS",
+  "link": "https://www.youtube.com/embed/Mk_KtzYLKQE",
+  "detalle": "BODY POWER A #01 - Tríceps Workout Rutina (tipo Body Pump de Les Mills). Tabla de libre uso donde, con barra, discos y banco puedes entrenar conmigo al ritmo del beat, a lo largo de 10 canciones, una por grupo muscular.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a674d44c0536332c70fb40"
+  },
+  "nombre": "Viding en casa",
+  "link": "https://www.youtube.com/embed/r2OHEgZizuk",
+  "detalle": "Viding en casa nace con el objetivo de seguir disfrutando de la Vida Viding (Salud, Deporte y Diversión) con nuestras clases virtuales desde casa y hacer un confinamiento de COVID-19 más ameno.\n\nCon Body Balance ejercitaremos nuestro cuerpo y nuestra mente trabajando con ejercicios de una intensidad media.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a675114c0536332c70fb41"
+  },
+  "nombre": "Fuerza y Flexibilidad",
+  "link": "https://www.youtube.com/embed/DiDD_qWprEU",
+  "detalle": "Movimientos inspirados en Pilates, Tai Chi y Yoga. Para mejorar tu Fuerza, tu flexibilidad, gana equiibrio tanto en tu cuerpo como en tu mente.\nAdemás, esta clase está adaptada para mujeres embarazadas, movimientos especificos que te ayudarán en el control de la respiración y te beneficiarás de la  fuerza y flexibilidad.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a675544c0536332c70fb42"
+  },
+  "nombre": "BODY BALANCE 30'",
+  "link": "https://www.youtube.com/embed/3zC4u160S2w",
+  "detalle": "BODYBALANCE es un programa de entrenamiento inspirado en Yoga, Tai Chi y Pilates que mejora la flexibilidad, la fuerza y le brinda una sensación de calma, armonía y bienestar.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a675e44c0536332c70fb43"
+  },
+  "nombre": "En Rutina",
+  "link": "https://www.youtube.com/embed/xyfL_J7fzRc",
+  "detalle": "Realiza este entrenamiento que consiste es un programa grupal que combina tres disciplinas: tai chi, yoga y pilates. Hoy nos acompaña Macarena Aceituno, académica UTalca.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a676384c0536332c70fb44"
+  },
+  "nombre": "VENDAJE BOXEO",
+  "link": "https://www.youtube.com/embed/u10N5oSDQAY",
+  "detalle": "Aplicando los fundamentos del vendaje profesional, explicamos paso a paso cómo vendar correctamente las diferentes articulaciones y por qué utilizar una u otra forma de vendaje.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a676784c0536332c70fb45"
+  },
+  "nombre": "Ejercicios Básicos",
+  "link": "https://www.youtube.com/embed/RwNe8_OK_FE",
+  "detalle": "► APRENDE CON LOS MEJORES TRUCOS Y CONSEJOS SOBRE COMO GOLPEAR EL SACO DE BOXEO.\n\n► Ejercicios Básicos para aprender boxeo a nivel principiante.\n\n► ¿Quien dijo que las mujeres no pueden aprender boxeo?? Aqui un tutorial completo de boxeo para chicas con chicas boxeando!!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a676cf4c0536332c70fb46"
+  },
+  "nombre": "BOXEO PRINCIPIANTES",
+  "link": "https://www.youtube.com/embed/wLDam1FVY-4",
+  "detalle": "A través del boxeo no solamente mejoraremos el tono muscular de nuestros brazos y nuestros hombros, los encargados de lanzar los golpes durante los combates; sino que además trabajaremos también toda nuestra zona media (todos los golpes se inician y terminan en nuestra zona central) y la musculatura profunda del abdomen.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a677054c0536332c70fb47"
+  },
+  "nombre": "SACO de BOXEO",
+  "link": "https://www.youtube.com/embed/hNHdNQ-G9Fg",
+  "detalle": "Si llegas hasta el final, habrás conseguido superar la BOMBA CARDIOVASCULAR. Pero si te quedas por el camino, no pasa nada. ¡Sigue entrenando con cualquier de nuestros programas, y vuelve a intentarlo dentro de unos días! ¡Anota tu progreso y nos dejes de insistir hasta conseguir acabar la rutina!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6773e4c0536332c70fb48"
+  },
+  "nombre": "4 ejercicios",
+  "link": "https://www.youtube.com/embed/pN1JfjoyiY0",
+  "detalle": "Los entrenamientos de boxeo para ponerse en forma son tremendamente efectivos ya que es un deporte muy exigente en el que se queman calorías, aqui les compartimos 4 ejercicios básicos de boxeo que pueden realizar en sus casas!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a677784c0536332c70fb49"
+  },
+  "nombre": "Boxeo En Casa 🥊",
+  "link": "https://www.youtube.com/embed/Qnw7a7PH6cM",
+  "detalle": "Esta Guía de boxeo para principiantes e intermedios esta estructurada en 12 rounds de 3 minutos cada round con descansos de 45 seg entre rounds.  esta abreviada para  mostrarles un poco de cómo seria un entrenamiento de boxeo en casa!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a677be4c0536332c70fb4a"
+  },
+  "nombre": "CLASE COMPLETA CARDIOBOX",
+  "link": "https://www.youtube.com/embed/T_dzjq-LtKM",
+  "detalle": "Es un trabajo muy efectivo, principalmente de tipo Cardiovascular, en el que tonificaremos toda la parte superior de nuestro cuerpo. No vamos a necesitar material.\n\nUna clase completa acompañada con la mejor música.\n \nEn esta clase vamos a darlo todo! Vamos a SUDAR a tope! 🔥🔥🔥🔥🔥",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a677ea4c0536332c70fb4b"
+  },
+  "nombre": "DESESTRESATE",
+  "link": "https://www.youtube.com/embed/JBv7YTnuXtg",
+  "detalle": "La rutina se compone de una parte aeróbica que incluye movimientos inspirados en el Boxeo y una segunda parte enfocada en fortalecer toda el área abdominal. Finalizarás con un estiramiento si acabas aquí el entrenamiento de hoy o si quieres continuar te dejo algunas recomendaciones abajo.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6781a4c0536332c70fb4c"
+  },
+  "nombre": "Rutina",
+  "link": "https://www.youtube.com/embed/rTLdFYedpy8",
+  "detalle": "|CARDIO BOX| Rutina para QUEMAR GRASA y ADELGAZAR RÁPIDO |38 Minutos|",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a678504c0536332c70fb4d"
+  },
+  "nombre": "Rutina 2.0",
+  "link": "https://www.youtube.com/embed/Badbt3rjtU4",
+  "detalle": "¡Hola a todos!\nHoy os traemos una rutina de Cardio Box de 15 minutos ideal para hacer en casa.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a6788f4c0536332c70fb4e"
+  },
+  "nombre": "QUEMAGRASA 🔥",
+  "link": "https://www.youtube.com/embed/8P3jaYBv2wU",
+  "detalle": "Es importante tener una esterilla/colchoneta cerca pues los abdominales van intercalados con los ejercicios de cardio, así que, combinaremos posición de pie con tumbada o en plancha durante toda la rutina. \n",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a679584c0536332c70fb4f"
+  },
+  "nombre": "PRIMERA DOMINADA",
+  "link": "https://www.youtube.com/embed/0iBlw5FPykM",
+  "detalle": "En este vídeo os enseño todos los ejercicios, consejos y “truquitos” que a mi me fueros genial para sacar dominadas y otros muchos más que con el tiempo he aprendido y me gustaría que me hubieras enseñado💪🏼",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a679804c0536332c70fb50"
+  },
+  "nombre": "BASE DEL HANDSTAND !",
+  "link": "https://www.youtube.com/embed/i_MY6nW6O1U",
+  "detalle": "En este vídeo os traemos lo que para nosotros es la BASE del HANDSTAND, los pequeños “truquitos” que a todos nos gustaría que nos hubieran explicado cuando empezamos.💪🏼",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a679aa4c0536332c70fb51"
+  },
+  "nombre": "¡ENTRENA TUS GLÚTEOS",
+  "link": "https://www.youtube.com/embed/bdZ9IfEWR4c",
+  "detalle": "En este vídeo os enseño como podéis entrenar vuestros GLÚTEOS con tan solo una MANCUERNA",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a67b414c0536332c70fb53"
+  },
+  "nombre": " FRONT LEVER",
+  "link": "https://www.youtube.com/embed/-UvcJNlMkFg",
+  "detalle": "En este vídeo os traemos el NIVEL 2 de la rutina de FRONT para PRINCIPIANTES💪🏼\n\nACTUALMENTE este es mi entreno, así que vamos a tope JUNTOS🤘🏼",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a67b734c0536332c70fb54"
+  },
+  "nombre": "EJERCICIOS con PARALELAS",
+  "link": "https://www.youtube.com/embed/CkFg6TmPI5s",
+  "detalle": "En este vídeo os dejo varios ejercicios para hacer con la paralelas tanto en casa como en el parque, pero ante esta situación de Coronavirus hay que apoyar y ayudarnos #YOMEQUEDOENCASA y como no #YOENTRENOENCASA , así que vamos a darle durísimo sea donde sea.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a67baf4c0536332c70fb55"
+  },
+  "nombre": "RUTINA DE FRONT LEVER",
+  "link": "https://www.youtube.com/embed/jn2kY8SHki0",
+  "detalle": "¡Hola chicas y chicos!🤘🏼\n\nEn este vídeo os traemos una rutina de FRONT para PRINCIPIANTES💪🏼",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a67c254c0536332c70fb56"
+  },
+  "nombre": " FULLBODY SIN MATERIAL!🔥",
+  "link": "https://www.youtube.com/embed/Hc7gLHm30GU",
+  "detalle": "En este vídeo os dejo algunos ejercicios que podéis hacer en casa sin equipamiento específico, trabajando con vuestro propio cuerpo. No os explico una técnica perfecta que debéis seguir, ya que algunos ejercicios yo también los sigo haciendo y mejorando.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a67e5b4c0536332c70fb58"
+  },
+  "nombre": "Aumentar masa muscular",
+  "link": "https://www.youtube.com/embed/FLeR48ytyBc",
+  "detalle": "Para ganar masa muscular es muy importante aplicar el estímulo al músculo, y eso es lo que hacemos con este tipo de rutinas. Pero también es imprescindible llevar una alimentación específica para ganar masa muscular. ",
   "__v": 0
 }]

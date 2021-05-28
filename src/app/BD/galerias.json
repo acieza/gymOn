@@ -1,29 +1,5 @@
 [{
   "_id": {
-    "$oid": "609433a9cb422c3510af7634"
-  },
-  "imagen": "25ec6e916fd84350dce4d2f2ae508d54.jpeg",
-  "titulo": "aaa",
-  "descripcion": "aaaa",
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "609433b2cb422c3510af7635"
-  },
-  "imagen": "ba914ab3ffc304c23ea8dbb7b93e61b8.jpeg",
-  "titulo": "aaabb",
-  "descripcion": "aaaabbb",
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "609433bbcb422c3510af7636"
-  },
-  "imagen": "bef1e3d5cbc64c59fc7f7f4f6aa05241.jpeg",
-  "titulo": "aaabbccc",
-  "descripcion": "aaaabbbcccc",
-  "__v": 0
-},{
-  "_id": {
     "$oid": "6094432fcb422c3510af7637"
   },
   "imagen": "37e8a22a60daf5bf8d1ce40c987d5deb.jpeg",
@@ -32,34 +8,66 @@
   "__v": 0
 },{
   "_id": {
-    "$oid": "60944356cb422c3510af7638"
+    "$oid": "60a682444c0536332c70fb5b"
   },
-  "imagen": "604d3b3e6c5b6b9af6755841bbc6f877.jpeg",
-  "titulo": "Sala de Estiramiento",
-  "descripcion": "movimientos controlados para el cuerpo y la mente.",
+  "imagen": "79bc47682ce57fddfe55984facef7011.jpeg",
+  "titulo": "Sala Boxeo",
+  "descripcion": "Espacio con todos los materiales necesarios para ejercicios destinado al contacto físico",
   "__v": 0
 },{
   "_id": {
-    "$oid": "60944361cb422c3510af7639"
+    "$oid": "60a683f64c0536332c70fb5e"
   },
-  "imagen": "04ea1a9abb77820eef68cf3202d8d7ef.jpeg",
-  "titulo": "Sala de Estiramientos",
-  "descripcion": "movimientos controlados para el cuerpo y la mente.",
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "609443b0cb422c3510af763a"
-  },
-  "imagen": "bfe669a39f4e17b75d8fa04cb925f66d.jpeg",
+  "imagen": "4091c35daf3f0307c7270370f60ba151.jpeg",
   "titulo": "Musculación",
-  "descripcion": "Sala de Máquinas",
+  "descripcion": "La zona de máquinas está equipada con máquinas de alta calidad las cuales te facilitaran la ejecución correcta de los distintos ejercicios.",
   "__v": 0
 },{
   "_id": {
-    "$oid": "6097a7aa4e0a0b1b70d021f1"
+    "$oid": "60a685a34c0536332c70fb62"
   },
-  "imagen": "8dbca9090ec252d8d9b00cadb69b346a.jpeg",
-  "titulo": "Sentadillas",
-  "descripcion": "Una mierda como un piano",
+  "imagen": "375860c909e1f023bdedf569e8425b6d.jpeg",
+  "titulo": "Crossfit",
+  "descripcion": "Espacios muy grandes que nos van a permitir trabajar en equipo, creando rutinas de intervalos",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a686ed4c0536332c70fb63"
+  },
+  "imagen": "4edb4a26e588bfb4615715ec7c81d925.jpeg",
+  "titulo": "Sala de Yoga",
+  "descripcion": "Espacios relajados y acotados que permiten que el usuario pueda dejar en la calle el ritmo de vida ajetreado.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a688ff4c0536332c70fb66"
+  },
+  "imagen": "ab360277da58fb42c6e8bf4f21d86b11.jpeg",
+  "titulo": "Spinning",
+  "descripcion": "En esta sala se practica Spinning I, spinning II y spinning III dirigidas por un monitor.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a689d54c0536332c70fb67"
+  },
+  "imagen": "1096409c2af1e2543ec7eee418e2c07b.jpeg",
+  "titulo": "Piscina",
+  "descripcion": "Aquagym o fitness acuático, es una variante del aeróbic que se realiza en un medio acuático.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a68c864c0536332c70fb68"
+  },
+  "imagen": "b9abc209da02766b447da245e439ae0b.jpeg",
+  "titulo": "Sauna",
+  "descripcion": "Las sesiones de sauna contribuyen a bajar la presencia de grasa, reducir la celulitis y aliviar el dolor y la fatiga articular.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a68d684c0536332c70fb69"
+  },
+  "imagen": "bd71bf2440d96a547e1b923b025c8045.jpeg",
+  "titulo": "Taquillas",
+  "descripcion": "Las taquillas son sin duda una parte del mobiliario fundamental en un vestuario de un gimnasio o de un centro deportivo.",
   "__v": 0
 }]

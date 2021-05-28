@@ -1,63 +1,78 @@
 [{
   "_id": {
-    "$oid": "609aaaae63645c3b181a9c15"
-  },
-  "ejercicios": [
-    {
-      "$oid": "6099589d21e75636885aae9b"
-    }
-  ],
-  "nombre": "Yoga",
-  "imagen": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "descripcion": "Prácticas de tipo físico, mental y espiritual, cuyo objetivo es lograr el equilibrio entre el cuerpo y mente para alcanzar la iluminación y la trascendencia",
-  "diaS": "Martes/Jueves",
-  "hora": "12:45",
-  "__v": 0
-},{
-  "_id": {
     "$oid": "609aab1063645c3b181a9c16"
   },
   "ejercicios": [
     {
       "$oid": "6099589d21e75636885aae9b"
+    },
+    {
+      "$oid": "60a3c53ee5dd353e94b6bd67"
+    },
+    {
+      "$oid": "60a66fa64c0536332c70fb35"
+    },
+    {
+      "$oid": "60a66fe34c0536332c70fb36"
+    },
+    {
+      "$oid": "60a670134c0536332c70fb37"
+    },
+    {
+      "$oid": "60a670944c0536332c70fb38"
+    },
+    {
+      "$oid": "60a670eb4c0536332c70fb39"
+    },
+    {
+      "$oid": "60a671d54c0536332c70fb3a"
     }
   ],
   "nombre": "Kick boxing",
-  "imagen": "https://images.pexels.com/photos/7045401/pexels-photo-7045401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "descripcion": "artes marciales y deportes de combate stand-up basados ​​en patadas y puñetazos, desarrollados históricamente de karate, Muay Thai y el boxeo occidental",
+  "imagen": "fe3ccee190883f3ee1af095b32fb6ea3.jpeg",
+  "descripcion": "Artes marciales y deportes de combate stand-up basados ​​en patadas y puñetazos, desarrollados históricamente de karate, Muay Thai y el boxeo occidental",
   "diaS": "Miercoles",
   "hora": "12:45",
-  "__v": 0
+  "__v": 7
 },{
   "_id": {
     "$oid": "609d01bc0dd9340c8465731f"
   },
   "ejercicios": [
     {
-      "$oid": "6099589d21e75636885aae9b"
-    },
-    {
-      "$oid": "609d009936775535647ec8e7"
-    },
-    {
-      "$oid": "609d004e36775535647ec8e6"
-    },
-    {
-      "$oid": "609d000936775535647ec8e5"
-    },
-    {
-      "$oid": "609cffcd36775535647ec8e4"
-    },
-    {
       "$oid": "609cff9136775535647ec8e3"
+    },
+    {
+      "$oid": "60a679584c0536332c70fb4f"
+    },
+    {
+      "$oid": "60a679804c0536332c70fb50"
+    },
+    {
+      "$oid": "60a679aa4c0536332c70fb51"
+    },
+    {
+      "$oid": "60a679d54c0536332c70fb52"
+    },
+    {
+      "$oid": "60a67b414c0536332c70fb53"
+    },
+    {
+      "$oid": "60a67b734c0536332c70fb54"
+    },
+    {
+      "$oid": "60a67baf4c0536332c70fb55"
+    },
+    {
+      "$oid": "60a67c254c0536332c70fb56"
     }
   ],
   "nombre": "Calistenia",
-  "imagen": "https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "imagen": "573abcd9acf8c9ee82e65c1394d87c39.jpeg",
   "descripcion": "La calistenia es un sistema de ejercicios físicos con el propio peso corporal. En este sistema, el interés está en los movimientos de las cadenas musculares que componen nuestro cuerpo. ... El objetivo es la adquisición de fuerza y belleza en el ejercicio. Es la belleza que tiene el cuerpo en movimiento.",
-  "diaS": "Martes/Viernes",
+  "diaS": "Martes/Jueves",
   "hora": "11:30",
-  "__v": 0
+  "__v": 8
 },{
   "_id": {
     "$oid": "609d129f0dd9340c84657327"
@@ -86,9 +101,177 @@
     }
   ],
   "nombre": "Crossfit",
-  "imagen": "https://images.pexels.com/photos/949130/pexels-photo-949130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "imagen": "e20a04145ef50d69a07a5209af6e92f0.jpeg",
   "descripcion": " método de entrenamiento basado en ejercicios constantemente variados, con movimientos funcionales ejecutados a alta intensidad. Es el entrenamiento por excelencia de cuerpos militares, policiales y de bomberos.",
   "diaS": "Lunes/Jueves",
   "hora": "10:45",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "60a0e73a1f183315545d49a6"
+  },
+  "ejercicios": [
+    {
+      "$oid": "60a0e66b1f183315545d49a5"
+    },
+    {
+      "$oid": "60a0e5781f183315545d49a4"
+    },
+    {
+      "$oid": "60a0e53d1f183315545d49a3"
+    }
+  ],
+  "nombre": "Yoga",
+  "imagen": "ab7404df2776e76add60282d1a169115.jpeg",
+  "descripcion": "Prácticas de tipo físico, mental y espiritual, cuyo objetivo es lograr el equilibrio entre el cuerpo y mente para alcanzar la iluminación y la trascendencia",
+  "diaS": "Martes/Jueves",
+  "hora": "12:45",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a662cf4c0536332c70fb2c"
+  },
+  "ejercicios": [
+    {
+      "$oid": "60a663784c0536332c70fb2d"
+    },
+    {
+      "$oid": "60a6646e4c0536332c70fb2e"
+    },
+    {
+      "$oid": "60a665304c0536332c70fb2f"
+    },
+    {
+      "$oid": "60a6658c4c0536332c70fb30"
+    }
+  ],
+  "imagen": "52070d2159660de245d9bf7c65b6b0b7.jpeg",
+  "nombre": "Spinning",
+  "descripcion": " Ejercicio aeróbico y cardiovascular que se realiza sobre una bicicleta estática en el que se trabaja el tren inferior: las piernas y los glúteos. Su finalidad principal es perder peso y la tonificación de los músculos, además de mejorar la fuerza y la resistencia.",
+  "diaS": "Miercoles/Viernes",
+  "hora": "09:30",
+  "__v": 4
+},{
+  "_id": {
+    "$oid": "60a667694c0536332c70fb31"
+  },
+  "ejercicios": [
+    {
+      "$oid": "60a673a04c0536332c70fb3b"
+    },
+    {
+      "$oid": "60a673d54c0536332c70fb3c"
+    },
+    {
+      "$oid": "60a674094c0536332c70fb3d"
+    },
+    {
+      "$oid": "60a674384c0536332c70fb3e"
+    },
+    {
+      "$oid": "60a674a34c0536332c70fb3f"
+    }
+  ],
+  "imagen": "acabc80c5cb5e2fd94bc1fb9ba679431.jpeg",
+  "nombre": "Body Pump",
+  "descripcion": "El Body Pump es quizás la clase colectiva más socorrida y famosa de los gimnasios españoles. La idea es trabajar con pesas todo el cuerpo, dividiendo la sesión en grupos musculares. Se realizan muchas repeticiones a un ritmo más o menos rápido.",
+  "diaS": "Martes",
+  "hora": "11:00",
+  "__v": 5
+},{
+  "_id": {
+    "$oid": "60a668354c0536332c70fb32"
+  },
+  "ejercicios": [
+    {
+      "$oid": "60a674d44c0536332c70fb40"
+    },
+    {
+      "$oid": "60a675114c0536332c70fb41"
+    },
+    {
+      "$oid": "60a675544c0536332c70fb42"
+    },
+    {
+      "$oid": "60a675e44c0536332c70fb43"
+    }
+  ],
+  "imagen": "9d3cfa9d4d33258722e035a209cf1299.jpeg",
+  "nombre": "Body Balance",
+  "descripcion": "El objetivo principal de esta modalidad es conseguir relajación y equilibrio de mente y cuerpo, a través de un plan que combina pilates, yoga, taichi y estiramientos variados. Un punto a destacar de esta modalidad es que lo puede hacer todo el mundo que así lo pretenda, desde niños hasta ancianos y embarazadas.",
+  "diaS": "Lunes/Martes",
+  "hora": "16:30",
+  "__v": 4
+},{
+  "_id": {
+    "$oid": "60a669204c0536332c70fb33"
+  },
+  "ejercicios": [
+    {
+      "$oid": "60a676384c0536332c70fb44"
+    },
+    {
+      "$oid": "60a676784c0536332c70fb45"
+    },
+    {
+      "$oid": "60a676cf4c0536332c70fb46"
+    },
+    {
+      "$oid": "60a677054c0536332c70fb47"
+    },
+    {
+      "$oid": "60a6773e4c0536332c70fb48"
+    },
+    {
+      "$oid": "60a677784c0536332c70fb49"
+    }
+  ],
+  "imagen": "4c3b4450eafe65a8b378cf0382ffe035.jpeg",
+  "nombre": "Boxeo",
+  "descripcion": "El boxeo es un deporte en el que se enfrentan a través de golpes con los puños dos personas de la misma categoría (en función del peso), empleando guantes especiales para aminorar el daño de cada uno de los impactos.",
+  "diaS": "Jueves",
+  "hora": "17:15",
+  "__v": 6
+},{
+  "_id": {
+    "$oid": "60a66a524c0536332c70fb34"
+  },
+  "ejercicios": [
+    {
+      "$oid": "60a677be4c0536332c70fb4a"
+    },
+    {
+      "$oid": "60a677ea4c0536332c70fb4b"
+    },
+    {
+      "$oid": "60a6781a4c0536332c70fb4c"
+    },
+    {
+      "$oid": "60a678504c0536332c70fb4d"
+    },
+    {
+      "$oid": "60a6788f4c0536332c70fb4e"
+    }
+  ],
+  "imagen": "bb0a3a6e1389daf2bd1e05ec5b3ce6ef.jpeg",
+  "nombre": "CardioBox",
+  "descripcion": "Esta clase se basa en la adaptación de las artes marciales y el trabajo cardiovascular a una clase colectiva, coreografiada y con apoyo musical. Se centra en la repetición constante de los ejercicios, pudiendo practicar diversos movimientos procedentes del capoeira, boxeo o el kickboxing.",
+  "diaS": "Martes/Viernes",
+  "hora": "12:00 - 18:15",
+  "__v": 5
+},{
+  "_id": {
+    "$oid": "60a67e254c0536332c70fb57"
+  },
+  "ejercicios": [
+    {
+      "$oid": "60a67e5b4c0536332c70fb58"
+    }
+  ],
+  "imagen": "1ca9dcfd61152403ca0c32e9ae0c33c2.png",
+  "nombre": "Musculación",
+  "descripcion": "La musculación es el aumento o desarrollo de los músculos del cuerpo, generalmente aumentando su volumen. También está relacionada con la definición, para mejorar su apariencia o estética.",
+  "diaS": "Martes/Jueves",
+  "hora": "12:00 - 13:00",
+  "__v": 1
 }]
