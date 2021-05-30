@@ -118,4 +118,8 @@ export class AuthService {
     const decodedtoken = helper.decodeToken(eltoken);
     return decodedtoken;
   }
+
+  addClass(idU: string, idC:string){
+ return this.http.get<Usuario>(`http://localhost:3000/usuarios/anadirClaseUser/${idU}/${idC}`);
+  }
 }

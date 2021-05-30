@@ -19,7 +19,7 @@
              <h5 class="card-title">{{item.nombre}}</h5>
              <div class="card-content">
                <p class="card-text">{{item.descripcion}}</p>
-               <a href="" class="btn btn-primary">Me apunto!</a>
+               <p (click)="AddClase(item._id,item.nombre)" class="btn btn-primary">Me apunto!</p>
              </div>
            </div>
          </div>

@@ -15,6 +15,7 @@ export class LmsComponent implements OnInit {
   ) {
     this.usuario = authService.usuario
     console.log(this.usuario);
+    console.log(this.usuario._id)
    }
 
   ngOnInit(): void {
