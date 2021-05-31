@@ -50,16 +50,16 @@ AddClase(idC:string, nombre:string){
           Swal.fire({
             //position: 'top-end',
             icon: 'success',
-            title: 'Clase Añadida con éxito',
+            title: nombre + ' se añadió a "mis clases"',
             showConfirmButton: true,
             timer: 1500
           });
           // this.router.navigateByUrl(`/admin/Usuarios`)
      
-        }, (err) => {
+        }, (err) => {console.log(err.error.msg) 
          Swal.fire({
            icon:'error',
-           title:'Ya estás apuntado a '+ nombre,
+           title:'Oops...',
            text: err.error.msg,         
          })     
         });

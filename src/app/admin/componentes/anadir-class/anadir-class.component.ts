@@ -31,6 +31,7 @@ ngOnInit(){
     this.identificaClase=params.id
 });
 }
+// Formulario vacío con los campos requeridos
     private buildForm(){
       this.form = this.formBuilder.group({
         imagen: ['', Validators.required],
@@ -46,6 +47,7 @@ ngOnInit(){
       
     }
     
+    // Subir archivo a Nodejs
     uploadFile(event){
       const file = event.target.files[0];
   
