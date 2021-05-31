@@ -35,24 +35,30 @@
   "img": "5f888c7924c52040f2c01b544ea0d9ec.jpeg"
 },{
   "_id": {
-    "$oid": "605ce311b9442f33f48a2e7d"
-  },
-  "role": "user",
-  "clases": [],
-  "nombre": "alberto",
-  "email": "alberto@gmail.com",
-  "password": "$2a$10$nqsI0IqRPdZ3Yx5lR8Ez1OYzqf/xQCyYs4kkKNouGS3ndP9dQKnfq",
-  "__v": 0
-},{
-  "_id": {
     "$oid": "608983f97d176239a05af4b8"
   },
   "role": "user",
-  "clases": [],
+  "clases": [
+    {
+      "$oid": "609aab1063645c3b181a9c16"
+    },
+    {
+      "$oid": "609d01bc0dd9340c8465731f"
+    },
+    {
+      "$oid": "609d129f0dd9340c84657327"
+    },
+    {
+      "$oid": "60a667694c0536332c70fb31"
+    },
+    {
+      "$oid": "60a662cf4c0536332c70fb2c"
+    }
+  ],
   "nombre": "Fernanda",
   "password": "$2a$10$D1W2c2y6Vv4XAtdl853h0ObcqpJvw88xBJzzUwanecZp3KzHADtMS",
   "email": "fernanda@gmail.com",
-  "__v": 0,
+  "__v": 23,
   "img": "1e470a3d3a71efea22416b92873ddafd.jpeg",
   "altura": 162,
   "peso": null
@@ -111,24 +117,45 @@
   "img": "682f154cc744807a302874b256178289.jpeg"
 },{
   "_id": {
-    "$oid": "608984307d176239a05af4bd"
-  },
-  "role": "user",
-  "clases": [],
-  "nombre": "Paula",
-  "password": "$2a$10$fk7l6GfX6UaRtHKv59cg6u/TbVjgZEoMPuzDA8V9J6QZHq7sQUCxm",
-  "email": "paula@gmail.com",
-  "__v": 0
-},{
-  "_id": {
     "$oid": "608984bb7d176239a05af4be"
   },
   "role": "user",
-  "clases": [],
+  "clases": [
+    {
+      "$oid": "609d01bc0dd9340c8465731f"
+    },
+    {
+      "$oid": "609d129f0dd9340c84657327"
+    },
+    {
+      "$oid": "60a662cf4c0536332c70fb2c"
+    },
+    {
+      "$oid": "60a0e73a1f183315545d49a6"
+    },
+    {
+      "$oid": "60a667694c0536332c70fb31"
+    },
+    {
+      "$oid": "60a66a524c0536332c70fb34"
+    },
+    {
+      "$oid": "60a669204c0536332c70fb33"
+    },
+    {
+      "$oid": "60a669204c0536332c70fb33"
+    },
+    {
+      "$oid": "60a668354c0536332c70fb32"
+    }
+  ],
   "nombre": "Christian",
   "password": "$2a$10$WWMjh9Uu9xKFvkbcrZxxJupOKHiMbZKKeqzSPmQQA09W5F3kRG7bW",
   "email": "christian@gmail.com",
-  "__v": 0
+  "__v": 9,
+  "altura": 168,
+  "img": "60b24af812fbfbc68d5ebb902c484abb.jpeg",
+  "peso": 50
 },{
   "_id": {
     "$oid": "608984c97d176239a05af4bf"
@@ -218,19 +245,6 @@
   "peso": 45
 },{
   "_id": {
-    "$oid": "6092bd6dd1ad7f262c39ceed"
-  },
-  "role": "user",
-  "clases": [],
-  "nombre": "Alba",
-  "email": "alb@gmail.com",
-  "altura": null,
-  "password": "$2a$10$aCRPDu9oHqyUpLp1knwBDOvsWF9vFpjolYZf4p4Kmi/sqWXlRZd06",
-  "__v": 0,
-  "img": "4943581208c1665269a23a9b15331a7f.jpeg",
-  "peso": 12
-},{
-  "_id": {
     "$oid": "6097aa574e0a0b1b70d021f2"
   },
   "role": "user",
@@ -247,11 +261,15 @@
     "$oid": "60994c1cde5dbb2bc07e05e7"
   },
   "role": "user",
-  "clases": [],
+  "clases": [
+    {
+      "$oid": "60a667694c0536332c70fb31"
+    }
+  ],
   "nombre": "roberto",
   "email": "roberto@gmail.com",
   "password": "$2a$10$Ani8kWTYY5MMo1m2bJ3iPucpWvkVLdcu0T3Vq1BtPLDUYir1WN582",
-  "__v": 0,
+  "__v": 8,
   "altura": 178,
   "img": "d3b7c888b0855707a3c736c1565ec8b6.jpeg",
   "peso": 59
@@ -302,27 +320,18 @@
     },
     {
       "$oid": "60a667694c0536332c70fb31"
+    },
+    {
+      "$oid": "60a67e254c0536332c70fb57"
     }
   ],
   "nombre": "alejandro",
   "email": "asanjuancieza3@gmail.com",
   "img": "49a05df9a9bf9c4981865989a49c483d.png",
   "password": "$2a$10$kOCFMKLjTcS0PPfh377AGeEoJyn7NY7SCrMqVk0EgO1IJDlpU.y8i",
-  "__v": 1,
+  "__v": 2,
   "altura": 181,
-  "peso": 76
-},{
-  "_id": {
-    "$oid": "609c335b2959845230eccb8c"
-  },
-  "role": "user",
-  "clases": [],
-  "nombre": "Nina",
-  "email": "nina@gmail.com",
-  "password": "$2a$10$DQ6oDLgJ93NJKEqWAolibuSCuzhJCroANC5SxHXBlG8otkRZVyhcC",
-  "__v": 0,
-  "altura": 167,
-  "peso": 67
+  "peso": 45
 },{
   "_id": {
     "$oid": "60abd3a4c0334c342cd07794"
@@ -342,5 +351,7 @@
   "nombre": "guillermito",
   "email": "guillermito@gmail.com",
   "password": "$2a$10$bIqYwuE5w0LPvuARvI/Is.BzR8c.WBUDf.hxQBOHMMVthFgWDnhxe",
-  "__v": 0
+  "__v": 0,
+  "altura": 182,
+  "peso": 79
 }]

@@ -54,4 +54,18 @@
   "email": "danielito@gmail.com",
   "contenido": "Es una gozada",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "60a0e31d1f183315545d49a2"
+  },
+  "email": "sandrita@gmail.com",
+  "contenido": "Esto es una mierda",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a7e9be79458225a8ffeeeb"
+  },
+  "email": "Deivich@gmail.com",
+  "contenido": "No me apunto porque las sentadillas son una mierda",
+  "__v": 0
 }]
