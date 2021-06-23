@@ -164,7 +164,8 @@ get devuelveImagen(){
   }
 
 
-  borrarClase(id: string){
+  eliminarClases(id: number){
+    this.leerClase.removeAt(id);
     console.log(this.form.value);
   }
 }
