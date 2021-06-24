@@ -100,18 +100,12 @@
   "clases": [
     {
       "$oid": "609d01bc0dd9340c8465731f"
-    },
-    {
-      "$oid": "60a0e73a1f183315545d49a6"
-    },
-    {
-      "$oid": "60a66a524c0536332c70fb34"
     }
   ],
   "nombre": "Ines",
   "password": "$2a$10$YpWF.GP5JsswobTQH.SYjeoWNLwpUsnx08.vpZnB.BVX9L174HFXC",
   "email": "ines@gmail.com",
-  "__v": 0,
+  "__v": 4,
   "altura": 162,
   "peso": 45,
   "img": "682f154cc744807a302874b256178289.jpeg"
